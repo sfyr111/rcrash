@@ -14,14 +14,12 @@ rcrash/
 │       ├── ch03_4_basic_types.rs       # 3.4 Basic Data Types
 │       ├── ch03_6_integer_overflow.rs  # 3.6 Integer Overflow
 │       ├── ch03_7_tuple.rs             # 3.7 Tuple
-│       ├── ch03_8_array.rs             # 3.8 Array
 │       └── ...                         # More chapter demos
 ├── docs/
 │   ├── ch03_3_var_mut.md               # 3.3 Documentation
 │   ├── ch03_4_basic_types.md           # 3.4 Documentation
 │   ├── ch03_6_integer_overflow.md      # 3.6 Documentation
 │   ├── ch03_7_tuple.md                 # 3.7 Documentation
-│   ├── ch03_8_array.md                 # 3.8 Documentation
 │   └── ...                             # More chapter docs
 └── README.md                           # Project introduction and index
 ```
@@ -39,7 +37,6 @@ cargo run --bin ch03_3_var_mut
 cargo run --bin ch03_4_basic_types
 cargo run --bin ch03_6_integer_overflow
 cargo run --bin ch03_7_tuple
-cargo run --bin ch03_8_array
 ```
 
 ---
@@ -52,7 +49,6 @@ cargo run --bin ch03_8_array
 | 3.4     | Basic Data Types        | [ch03_4_basic_types.rs](src/bin/ch03_4_basic_types.rs)           | [ch03_4_basic_types.md](docs/ch03_4_basic_types.md)                |
 | 3.6     | Integer Overflow        | [ch03_6_integer_overflow.rs](src/bin/ch03_6_integer_overflow.rs) | [ch03_6_integer_overflow.md](docs/ch03_6_integer_overflow.md)      |
 | 3.7     | Tuple                   | [ch03_7_tuple.rs](src/bin/ch03_7_tuple.rs)                       | [ch03_7_tuple.md](docs/ch03_7_tuple.md)                            |
-| 3.8     | Array                   | [ch03_8_array.rs](src/bin/ch03_8_array.rs)                       | [ch03_8_array.md](docs/ch03_8_array.md)                            |
 
 > More chapters coming soon...
 
