@@ -17,6 +17,7 @@ rcrash/
 │       ├── ch03_8_array.rs             # 3.8 Array
 │       ├── ch03_9_slice.rs             # 3.9 Slice Type
 │       ├── ch03_10_struct.rs           # 3.10 Struct
+│       ├── ch03_11_enum.rs             # 3.11 Enum
 │       └── ...                         # More chapter demos
 ├── docs/
 │   ├── ch03_3_var_mut.md               # 3.3 Documentation
@@ -26,6 +27,7 @@ rcrash/
 │   ├── ch03_8_array.md                 # 3.8 Documentation
 │   ├── ch03_9_slice.md                 # 3.9 Documentation
 │   ├── ch03_10_struct.md               # 3.10 Documentation
+│   ├── ch03_11_enum.md                 # 3.11 Documentation
 │   └── ...                             # More chapter docs
 └── README.md                           # Project introduction and index
 ```
@@ -46,6 +48,7 @@ cargo run --bin ch03_7_tuple
 cargo run --bin ch03_8_array
 cargo run --bin ch03_9_slice
 cargo run --bin ch03_10_struct
+cargo run --bin ch03_11_enum
 ```
 
 ---
@@ -61,6 +64,7 @@ cargo run --bin ch03_10_struct
 | 3.8     | Array                   | [ch03_8_array.rs](src/bin/ch03_8_array.rs)                       | [ch03_8_array.md](docs/ch03_8_array.md)                            |
 | 3.9     | Slice Type              | [ch03_9_slice.rs](src/bin/ch03_9_slice.rs)                       | [ch03_9_slice.md](docs/ch03_9_slice.md)                            |
 | 3.10    | Struct                  | [ch03_10_struct.rs](src/bin/ch03_10_struct.rs)                   | [ch03_10_struct.md](docs/ch03_10_struct.md)                        |
+| 3.11    | Enum                    | [ch03_11_enum.rs](src/bin/ch03_11_enum.rs)                       | [ch03_11_enum.md](docs/ch03_11_enum.md)                            |
 
 > More chapters coming soon...
 
@@ -70,4 +74,5 @@ cargo run --bin ch03_10_struct
 
 - Each chapter's demo file and documentation are directly linked for easy access.
 - It is recommended to use this project together with the [Rust Book](https://doc.rust-lang.org/book/).
+- Note that printing for enums is now manual (no Debug).
 - Contributions, feedback, and additional chapters are welcome!

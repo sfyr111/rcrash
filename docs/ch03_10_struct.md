@@ -1,14 +1,13 @@
 # Chapter 3.10: Struct
 
 ## Key Points
-
-- Structs are custom data types that let you name and package together multiple related values.
-- 三种形式：普通结构体、元组结构体、单元结构体。
-- 用 `#[derive(Debug)]` 可以用 `{:?}` 一次性打印整个结构体。
-- 关联函数（如 `fn new`）常用作构造器，不带 self 参数，用 `User::new(...)` 调用。
-- 关联方法（如 `fn show(&self)`) 作用于实例，用 `user.show()` 调用。
-- 用 `..` 语法可以从另一个实例快速创建新结构体。
-- **注意：如果元组结构体字段没被单独访问，会有 dead_code 警告。建议像 `println!("Color fields: {}, {}, {}", black.0, black.1, black.2);` 这样显式访问字段。**
+- Structs are custom data types that let you name and package multiple related values together.
+- Three forms: regular structs, tuple structs, and unit structs.
+- Use `#[derive(Debug)]` to print the entire struct with `{:?}`.
+- Associated functions (like `fn new`) often act as constructors, taking no `self` parameter and called with `User::new(...)`.
+- Associated methods (like `fn show(&self)`) act on an instance, called with `user.show()`.
+- Use the `..` syntax to quickly create a new struct from another instance.
+- **Note: If a tuple struct field is not accessed individually, there will be a dead_code warning. It is recommended to explicitly access the field like `println!("Color fields: {}, {}, {}", black.0, black.1, black.2);`.**
 
 ## Demo Code
 
@@ -36,12 +35,11 @@ fn main() {
                 self.username, self.email, self.sign_in_count, self.active);
         }
     }
-
     let mut user1 = User::new("alice", "alice@example.com");
-    println!("user1 = {:?}", user1); // 一次性打印
-    user1.show(); // 用方法打印
+    println!("user1 = {:?}", user1); // print once with {:?}
+    user1.show(); // print with method
 
-    // 字段访问和修改
+    // accessing and modifying fields
     println!("Username: {}", user1.username);
     println!("Email: {}", user1.email);
     println!("Active: {}", user1.active);
@@ -50,7 +48,7 @@ fn main() {
     println!("Updated email: {}", user1.email);
     user1.show();
 
-    // 结构体更新语法
+    // struct update syntax
     let user2 = User {
         username: String::from("bob"),
         email: String::from("bob@example.com"),
@@ -59,15 +57,15 @@ fn main() {
     println!("user2 = {:?}", user2);
     user2.show();
 
-    // 元组结构体
+    // tuple struct
     #[derive(Debug)]
     struct Color(i32, i32, i32);
     let black = Color(0, 0, 0);
     println!("black = {:?}", black);
-    // 使用字段，避免 dead_code 警告
+    // use fields to avoid dead_code warning
     println!("Color fields: {}, {}, {}", black.0, black.1, black.2);
 
-    // 单元结构体
+    // unit struct
     #[derive(Debug)]
     struct Marker;
     let m = Marker;
@@ -94,12 +92,11 @@ fn main() {
 | Unit-like instance      | `let m = Marker;`                            | Used for marker types                   |
 
 ## Notes
-
-- 用 `#[derive(Debug)]` + `{:?}` 可以方便调试和一次性打印结构体。
-- 关联函数常用于构造实例，关联方法可对实例做操作。
-- 元组结构体字段如果没被单独访问，会有 dead_code 警告，建议显式访问。
-- 字段名让代码更易读，减少出错。
-- 元组结构体适合字段无语义时，单元结构体常用于类型标记或 trait。
+- Use `#[derive(Debug)]` + `{:?}` for easy debugging and one-time printing of structs.
+- Associated functions are often used as constructors, while associated methods act on instances.
+- Tuple struct fields will have a dead_code warning if they are not accessed individually, so it is recommended to access them explicitly.
+- Named fields make code more readable and reduce errors.
+- Tuple structs are suitable for when fields have no meaning, and unit structs are often used for type markers or traits.
 
 ---
 
