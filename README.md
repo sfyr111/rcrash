@@ -20,6 +20,7 @@ rcrash/
 │       ├── ch03_11_enum.rs             # 3.11 Enum
 │       ├── ch03_12_comment.rs          # 3.12 Comment Types
 │       ├── ch03_13_println.rs          # 3.13 println! Macro
+│       ├── ch03_14_cast.rs             # 3.14 Type Conversion
 │       └── ...                         # More chapter demos
 ├── docs/
 │   ├── ch03_3_var_mut.md               # 3.3 Documentation
@@ -32,6 +33,7 @@ rcrash/
 │   ├── ch03_11_enum.md                 # 3.11 Documentation
 │   ├── ch03_12_comment.md              # 3.12 Documentation
 │   ├── ch03_13_println.md              # 3.13 Documentation
+│   ├── ch03_14_cast.md                 # 3.14 Documentation
 │   └── ...                             # More chapter docs
 └── README.md                           # Project introduction and index
 ```
@@ -55,6 +57,7 @@ cargo run --bin ch03_10_struct
 cargo run --bin ch03_11_enum
 cargo run --bin ch03_12_comment
 cargo run --bin ch03_13_println
+cargo run --bin ch03_14_cast
 ```
 
 ---
@@ -73,6 +76,7 @@ cargo run --bin ch03_13_println
 | 3.11    | Enum                    | [ch03_11_enum.rs](src/bin/ch03_11_enum.rs)                       | [ch03_11_enum.md](docs/ch03_11_enum.md)                            |
 | 3.12    | Comment Types           | [ch03_12_comment.rs](src/bin/ch03_12_comment.rs)                 | [ch03_12_comment.md](docs/ch03_12_comment.md)                      |
 | 3.13    | println! Macro          | [ch03_13_println.rs](src/bin/ch03_13_println.rs)                 | [ch03_13_println.md](docs/ch03_13_println.md)                      |
+| 3.14    | Type Conversion         | [ch03_14_cast.rs](src/bin/ch03_14_cast.rs)                       | [ch03_14_cast.md](docs/ch03_14_cast.md)                            |
 
 > More chapters coming soon...
 
