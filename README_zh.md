@@ -24,6 +24,7 @@ rcrash/
 │       ├── ch04_2_expr.rs              # 4.2 表达式形式
 │       ├── ch04_3_if.rs                # 4.3 if/else 选择结构
 │       ├── ch04_4_loop.rs              # 4.4 loop 循环
+│       ├── ch04_5_while.rs             # 4.5 while 循环
 │       └── ...                         # 更多章节示例
 ├── docs/
 │   ├── ch03_3_var_mut.md               # 3.3 变量与可变性
@@ -40,6 +41,7 @@ rcrash/
 │   ├── ch04_2_expr.md                  # 4.2 表达式形式
 │   ├── ch04_3_if.md                    # 4.3 if/else 选择结构
 │   ├── ch04_4_loop.md                  # 4.4 loop 循环
+│   ├── ch04_5_while.md                 # 4.5 while 循环
 │   └── ...                             # 更多章节文档
 └── README.md                           # 项目简介与索引
 ```
@@ -67,6 +69,7 @@ cargo run --bin ch03_14_cast
 cargo run --bin ch04_2_expr
 cargo run --bin ch04_3_if
 cargo run --bin ch04_4_loop
+cargo run --bin ch04_5_while
 ```
 
 ---
@@ -89,6 +92,7 @@ cargo run --bin ch04_4_loop
 | 4.2    | 表达式形式     | [ch04_2_expr.rs](src/bin/ch04_2_expr.rs)                        | [ch04_2_expr.md](docs/ch04_2_expr.md)                          |
 | 4.3    | if/else 选择结构| [ch04_3_if.rs](src/bin/ch04_3_if.rs)                            | [ch04_3_if.md](docs/ch04_3_if.md)                              |
 | 4.4    | loop 循环      | [ch04_4_loop.rs](src/bin/ch04_4_loop.rs)                        | [ch04_4_loop.md](docs/ch04_4_loop.md)                          |
+| 4.5    | while 循环     | [ch04_5_while.rs](src/bin/ch04_5_while.rs)                      | [ch04_5_while.md](docs/ch04_5_while.md)                        |
 
 > 更多章节持续更新中...
 
