@@ -21,19 +21,21 @@ rcrash/
 │       ├── ch03_12_comment.rs          # 3.12 Comment Types
 │       ├── ch03_13_println.rs          # 3.13 println! Macro
 │       ├── ch03_14_cast.rs             # 3.14 Type Conversion
+│       ├── ch04_2_expr.rs              # 4.2 Expression Forms
 │       └── ...                         # More chapter demos
 ├── docs/
-│   ├── ch03_3_var_mut.md               # 3.3 Documentation
-│   ├── ch03_4_basic_types.md           # 3.4 Documentation
-│   ├── ch03_6_integer_overflow.md      # 3.6 Documentation
-│   ├── ch03_7_tuple.md                 # 3.7 Documentation
-│   ├── ch03_8_array.md                 # 3.8 Documentation
-│   ├── ch03_9_slice.md                 # 3.9 Documentation
-│   ├── ch03_10_struct.md               # 3.10 Documentation
-│   ├── ch03_11_enum.md                 # 3.11 Documentation
-│   ├── ch03_12_comment.md              # 3.12 Documentation
-│   ├── ch03_13_println.md              # 3.13 Documentation
-│   ├── ch03_14_cast.md                 # 3.14 Documentation
+│   ├── ch03_3_var_mut.md               # 3.3 Variables and Mutability
+│   ├── ch03_4_basic_types.md           # 3.4 Basic Data Types
+│   ├── ch03_6_integer_overflow.md      # 3.6 Integer Overflow
+│   ├── ch03_7_tuple.md                 # 3.7 Tuple
+│   ├── ch03_8_array.md                 # 3.8 Array
+│   ├── ch03_9_slice.md                 # 3.9 Slice Type
+│   ├── ch03_10_struct.md               # 3.10 Struct
+│   ├── ch03_11_enum.md                 # 3.11 Enum
+│   ├── ch03_12_comment.md              # 3.12 Comment Types
+│   ├── ch03_13_println.md              # 3.13 println! Macro
+│   ├── ch03_14_cast.md                 # 3.14 Type Conversion
+│   ├── ch04_2_expr.md                  # 4.2 Expression Forms
 │   └── ...                             # More chapter docs
 └── README.md                           # Project introduction and index
 ```
@@ -58,6 +60,7 @@ cargo run --bin ch03_11_enum
 cargo run --bin ch03_12_comment
 cargo run --bin ch03_13_println
 cargo run --bin ch03_14_cast
+cargo run --bin ch04_2_expr
 ```
 
 ---
@@ -77,6 +80,7 @@ cargo run --bin ch03_14_cast
 | 3.12    | Comment Types           | [ch03_12_comment.rs](src/bin/ch03_12_comment.rs)                 | [ch03_12_comment.md](docs/ch03_12_comment.md)                      |
 | 3.13    | println! Macro          | [ch03_13_println.rs](src/bin/ch03_13_println.rs)                 | [ch03_13_println.md](docs/ch03_13_println.md)                      |
 | 3.14    | Type Conversion         | [ch03_14_cast.rs](src/bin/ch03_14_cast.rs)                       | [ch03_14_cast.md](docs/ch03_14_cast.md)                            |
+| 4.2     | Expression Forms        | [ch04_2_expr.rs](src/bin/ch04_2_expr.rs)                         | [ch04_2_expr.md](docs/ch04_2_expr.md)                              |
 
 > More chapters coming soon...
 
