@@ -26,6 +26,7 @@ rcrash/
 │       ├── ch04_4_loop.rs              # 4.4 loop 循环
 │       ├── ch04_5_while.rs             # 4.5 while 循环
 │       ├── ch04_6_for.rs               # 4.6 for/range 迭代
+│       ├── ch04_7_match.rs             # 4.7 match 语法
 │       └── ...                         # 更多章节示例
 ├── docs/
 │   ├── ch03_3_var_mut.md               # 3.3 变量与可变性
@@ -44,6 +45,7 @@ rcrash/
 │   ├── ch04_4_loop.md                  # 4.4 loop 循环
 │   ├── ch04_5_while.md                 # 4.5 while 循环
 │   ├── ch04_6_for.md                   # 4.6 for/range 迭代
+│   ├── ch04_7_match.md                 # 4.7 match 语法
 │   └── ...                             # 更多章节文档
 └── README.md                           # 项目简介与索引
 ```
@@ -73,6 +75,7 @@ cargo run --bin ch04_3_if
 cargo run --bin ch04_4_loop
 cargo run --bin ch04_5_while
 cargo run --bin ch04_6_for
+cargo run --bin ch04_7_match
 ```
 
 ---
@@ -97,6 +100,7 @@ cargo run --bin ch04_6_for
 | 4.4    | loop 循环      | [ch04_4_loop.rs](src/bin/ch04_4_loop.rs)                        | [ch04_4_loop.md](docs/ch04_4_loop.md)                          |
 | 4.5    | while 循环     | [ch04_5_while.rs](src/bin/ch04_5_while.rs)                      | [ch04_5_while.md](docs/ch04_5_while.md)                        |
 | 4.6    | for/range 迭代 | [ch04_6_for.rs](src/bin/ch04_6_for.rs)                          | [ch04_6_for.md](docs/ch04_6_for.md)                            |
+| 4.7    | match 语法     | [ch04_7_match.rs](src/bin/ch04_7_match.rs)                      | [ch04_7_match.md](docs/ch04_7_match.md)                        |
 
 > 更多章节持续更新中...
 
