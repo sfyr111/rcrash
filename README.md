@@ -27,6 +27,7 @@ rcrash/
 │       ├── ch04_5_while.rs             # 4.5 Using while
 │       ├── ch04_6_for.rs               # 4.6 Using for/range
 │       ├── ch04_7_match.rs             # 4.7 match Syntax
+│       ├── ch04_8_if_let.rs            # 4.8 if let Syntactic Sugar
 │       └── ...                         # More chapter demos
 ├── docs/
 │   ├── ch03_3_var_mut.md               # 3.3 Variables and Mutability
@@ -46,6 +47,7 @@ rcrash/
 │   ├── ch04_5_while.md                 # 4.5 Using while
 │   ├── ch04_6_for.md                   # 4.6 Using for/range
 │   ├── ch04_7_match.md                 # 4.7 match Syntax
+│   ├── ch04_8_if_let.md                # 4.8 if let Syntactic Sugar
 │   └── ...                             # More chapter docs
 └── README.md                           # Project introduction and index
 ```
@@ -76,6 +78,7 @@ cargo run --bin ch04_4_loop
 cargo run --bin ch04_5_while
 cargo run --bin ch04_6_for
 cargo run --bin ch04_7_match
+cargo run --bin ch04_8_if_let
 ```
 
 ---
@@ -101,6 +104,7 @@ cargo run --bin ch04_7_match
 | 4.5     | Using while             | [ch04_5_while.rs](src/bin/ch04_5_while.rs)                       | [ch04_5_while.md](docs/ch04_5_while.md)                            |
 | 4.6     | Using for/range         | [ch04_6_for.rs](src/bin/ch04_6_for.rs)                           | [ch04_6_for.md](docs/ch04_6_for.md)                                |
 | 4.7     | match Syntax            | [ch04_7_match.rs](src/bin/ch04_7_match.rs)                       | [ch04_7_match.md](docs/ch04_7_match.md)                            |
+| 4.8     | if let Syntactic Sugar  | [ch04_8_if_let.rs](src/bin/ch04_8_if_let.rs)                     | [ch04_8_if_let.md](docs/ch04_8_if_let.md)                          |
 
 > More chapters coming soon...
 
