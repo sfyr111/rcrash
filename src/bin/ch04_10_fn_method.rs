@@ -11,11 +11,11 @@ struct Counter {
 }
 
 impl Counter {
-    // Associated function (类似静态方法)
+    // Associated function (like a static method)
     fn new(start: i32) -> Self {
         Counter { value: start }
     }
-    // Method (有 self 参数)
+    // Method (has self parameter)
     fn inc(&mut self) {
         self.value += 1;
     }
@@ -25,13 +25,13 @@ impl Counter {
 }
 
 fn main() {
-    // 普通函数
+    // Regular function
     let sum = add(3, 5);
     println!("3 + 5 = {}", sum);
 
     print_greeting("Rustacean");
 
-    // 方法与关联函数
+    // Methods and associated function
     let mut c = Counter::new(10);
     c.inc();
     c.inc();

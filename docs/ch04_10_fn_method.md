@@ -1,11 +1,11 @@
-# Chapter 4.10: 函数与方法
+# Chapter 4.10: Functions and Methods
 
 ## Key Points
 
-- Rust 使用 `fn` 关键字定义函数。
-- 函数有参数和返回值，类型必须显式声明。
-- 方法（method）定义在 `impl` 块内，第一个参数通常为 `self`，用于操作结构体实例。
-- 关联函数（associated function）无 `self` 参数，类似静态方法。
+- Rust uses the `fn` keyword to define functions.
+- Functions have parameters and return values, and types must be explicitly declared.
+- Methods are defined in an `impl` block, with the first parameter usually being `self` to operate on struct instances.
+- Associated functions (no `self` parameter) are like static methods.
 
 ## Demo Code
 
@@ -23,11 +23,11 @@ struct Counter {
 }
 
 impl Counter {
-    // 关联函数（静态方法）
+    // Associated function (like a static method)
     fn new(start: i32) -> Self {
         Counter { value: start }
     }
-    // 方法（有 self 参数）
+    // Method (has self parameter)
     fn inc(&mut self) {
         self.value += 1;
     }
@@ -37,13 +37,13 @@ impl Counter {
 }
 
 fn main() {
-    // 普通函数
+    // Regular function
     let sum = add(3, 5);
     println!("3 + 5 = {}", sum);
 
     print_greeting("Rustacean");
 
-    // 方法与关联函数
+    // Methods and associated function
     let mut c = Counter::new(10);
     c.inc();
     c.inc();
@@ -51,23 +51,23 @@ fn main() {
 }
 ```
 
-## Table: 函数与方法用法
+## Table: Function and Method Usage
 
-| 用法         | 示例                           | 说明                     |
-|--------------|--------------------------------|--------------------------|
-| 普通函数     | `fn add(a: i32, b: i32)`      | 定义自由函数             |
-| 返回值       | `-> i32`                      | 明确类型，`return` 可省略 |
-| 关联函数     | `fn new(...) -> Self`         | `impl` 内、无 self 参数   |
-| 方法         | `fn inc(&mut self)`           | `impl` 内、有 self 参数   |
-| 调用方法     | `c.inc()`                     | 用实例调用方法           |
-| 调用关联函数 | `Counter::new(10)`            | 类型名调用，无实例       |
+| Usage           | Example                           | Description                  |
+|-----------------|-----------------------------------|------------------------------|
+| Regular function| `fn add(a: i32, b: i32)`          | Define a free function       |
+| Return value    | `-> i32`                          | Explicit type, `return` optional |
+| Associated func | `fn new(...) -> Self`             | In `impl`, no self param     |
+| Method          | `fn inc(&mut self)`               | In `impl`, has self param    |
+| Call method     | `c.inc()`                         | Call with instance           |
+| Call assoc func | `Counter::new(10)`                | Call with type name          |
 
 ## Notes
 
-- Rust 不支持函数重载。
-- 方法必须定义在 `impl` 块内。
-- `&self` 表示只读借用，`&mut self` 表示可变借用。
-- 关联函数常用于构造器（如 `new`）。
+- Rust does not support function overloading.
+- Methods must be defined within an `impl` block.
+- `&self` means immutable borrow, `&mut self` means mutable borrow.
+- Associated functions are often used as constructors (like `new`).
 
 ---
 
