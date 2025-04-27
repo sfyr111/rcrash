@@ -33,6 +33,7 @@ rcrash/
 │       ├── ch04_11_fn_closure.rs       # 4.11 函数与闭包
 │       ├── ch04_13_high_order.rs       # 4.13 高阶函数
 │       ├── ch04_14_never.rs            # 4.14 发散函数（Never 类型）
+│       ├── ch04_15_guess.rs            # 4.15 猜数字游戏
 │       └── ...                         # 更多章节示例
 ├── docs/
 │   ├── ch03_3_var_mut.md               # 3.3 变量与可变性
@@ -58,6 +59,7 @@ rcrash/
 │   ├── ch04_11_fn_closure.md           # 4.11 函数与闭包
 │   ├── ch04_13_high_order.md           # 4.13 高阶函数
 │   ├── ch04_14_never.md                # 4.14 发散函数（Never 类型）
+│   ├── ch04_15_guess.md                # 4.15 猜数字游戏
 │   └── ...                             # 更多章节文档
 └── README.md                           # 项目简介与索引
 ```
@@ -94,6 +96,7 @@ cargo run --bin ch04_10_fn_method
 cargo run --bin ch04_11_fn_closure
 cargo run --bin ch04_13_high_order
 cargo run --bin ch04_14_never
+cargo run --bin ch04_15_guess
 ```
 
 ---
@@ -125,6 +128,7 @@ cargo run --bin ch04_14_never
 | 4.11   | 函数与闭包     | [ch04_11_fn_closure.rs](src/bin/ch04_11_fn_closure.rs)           | [ch04_11_fn_closure.md](docs/ch04_11_fn_closure.md)            |
 | 4.13   | 高阶函数       | [ch04_13_high_order.rs](src/bin/ch04_13_high_order.rs)           | [ch04_13_high_order.md](docs/ch04_13_high_order.md)            |
 | 4.14   | 发散函数（Never）| [ch04_14_never.rs](src/bin/ch04_14_never.rs)                    | [ch04_14_never.md](docs/ch04_14_never.md)                      |
+| 4.15   | 猜数字游戏       | [ch04_15_guess.rs](src/bin/ch04_15_guess.rs)                     | [ch04_15_guess.md](docs/ch04_15_guess.md)                       |
 
 > 更多章节持续更新中...
 
