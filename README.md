@@ -25,6 +25,7 @@ rcrash/
 │       ├── ch04_3_if.rs                # 4.3 if/else Control Flow
 │       ├── ch04_4_loop.rs              # 4.4 Using loop
 │       ├── ch04_5_while.rs             # 4.5 Using while
+│       ├── ch04_6_for.rs               # 4.6 Using for/range
 │       └── ...                         # More chapter demos
 ├── docs/
 │   ├── ch03_3_var_mut.md               # 3.3 Variables and Mutability
@@ -42,6 +43,7 @@ rcrash/
 │   ├── ch04_3_if.md                    # 4.3 if/else Control Flow
 │   ├── ch04_4_loop.md                  # 4.4 Using loop
 │   ├── ch04_5_while.md                 # 4.5 Using while
+│   ├── ch04_6_for.md                   # 4.6 Using for/range
 │   └── ...                             # More chapter docs
 └── README.md                           # Project introduction and index
 ```
@@ -70,6 +72,7 @@ cargo run --bin ch04_2_expr
 cargo run --bin ch04_3_if
 cargo run --bin ch04_4_loop
 cargo run --bin ch04_5_while
+cargo run --bin ch04_6_for
 ```
 
 ---
@@ -93,6 +96,7 @@ cargo run --bin ch04_5_while
 | 4.3     | if/else Control Flow    | [ch04_3_if.rs](src/bin/ch04_3_if.rs)                             | [ch04_3_if.md](docs/ch04_3_if.md)                                  |
 | 4.4     | Using loop              | [ch04_4_loop.rs](src/bin/ch04_4_loop.rs)                         | [ch04_4_loop.md](docs/ch04_4_loop.md)                              |
 | 4.5     | Using while             | [ch04_5_while.rs](src/bin/ch04_5_while.rs)                       | [ch04_5_while.md](docs/ch04_5_while.md)                            |
+| 4.6     | Using for/range         | [ch04_6_for.rs](src/bin/ch04_6_for.rs)                           | [ch04_6_for.md](docs/ch04_6_for.md)                                |
 
 > More chapters coming soon...
 
