@@ -31,6 +31,7 @@ rcrash/
 │       ├── ch04_9_while_let.rs         # 4.9 while let 语法糖
 │       ├── ch04_10_fn_method.rs        # 4.10 函数与方法
 │       ├── ch04_11_fn_closure.rs       # 4.11 函数与闭包
+│       ├── ch04_13_high_order.rs       # 4.13 高阶函数
 │       └── ...                         # 更多章节示例
 ├── docs/
 │   ├── ch03_3_var_mut.md               # 3.3 变量与可变性
@@ -54,6 +55,7 @@ rcrash/
 │   ├── ch04_9_while_let.md             # 4.9 while let 语法糖
 │   ├── ch04_10_fn_method.md            # 4.10 函数与方法
 │   ├── ch04_11_fn_closure.md           # 4.11 函数与闭包
+│   ├── ch04_13_high_order.md           # 4.13 高阶函数
 │   └── ...                             # 更多章节文档
 └── README.md                           # 项目简介与索引
 ```
@@ -88,6 +90,7 @@ cargo run --bin ch04_8_if_let
 cargo run --bin ch04_9_while_let
 cargo run --bin ch04_10_fn_method
 cargo run --bin ch04_11_fn_closure
+cargo run --bin ch04_13_high_order
 ```
 
 ---
@@ -117,6 +120,7 @@ cargo run --bin ch04_11_fn_closure
 | 4.9    | while let 语法糖 | [ch04_9_while_let.rs](src/bin/ch04_9_while_let.rs)              | [ch04_9_while_let.md](docs/ch04_9_while_let.md)               |
 | 4.10   | 函数与方法     | [ch04_10_fn_method.rs](src/bin/ch04_10_fn_method.rs)             | [ch04_10_fn_method.md](docs/ch04_10_fn_method.md)              |
 | 4.11   | 函数与闭包     | [ch04_11_fn_closure.rs](src/bin/ch04_11_fn_closure.rs)           | [ch04_11_fn_closure.md](docs/ch04_11_fn_closure.md)            |
+| 4.13   | 高阶函数       | [ch04_13_high_order.rs](src/bin/ch04_13_high_order.rs)           | [ch04_13_high_order.md](docs/ch04_13_high_order.md)            |
 
 > 更多章节持续更新中...
 
