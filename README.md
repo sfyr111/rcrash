@@ -30,6 +30,7 @@ rcrash/
 │       ├── ch04_8_if_let.rs            # 4.8 if let Syntactic Sugar
 │       ├── ch04_9_while_let.rs         # 4.9 while let Syntactic Sugar
 │       ├── ch04_10_fn_method.rs        # 4.10 Functions and Methods
+│       ├── ch04_11_fn_closure.rs       # 4.11 Functions and Closures
 │       └── ...                         # More chapter demos
 ├── docs/
 │   ├── ch03_3_var_mut.md               # 3.3 Variables and Mutability
@@ -52,6 +53,7 @@ rcrash/
 │   ├── ch04_8_if_let.md                # 4.8 if let Syntactic Sugar
 │   ├── ch04_9_while_let.md             # 4.9 while let Syntactic Sugar
 │   ├── ch04_10_fn_method.md            # 4.10 Functions and Methods
+│   ├── ch04_11_fn_closure.md           # 4.11 Functions and Closures
 │   └── ...                             # More chapter docs
 └── README.md                           # Project introduction and index
 ```
@@ -85,6 +87,7 @@ cargo run --bin ch04_7_match
 cargo run --bin ch04_8_if_let
 cargo run --bin ch04_9_while_let
 cargo run --bin ch04_10_fn_method
+cargo run --bin ch04_11_fn_closure
 ```
 
 ---
@@ -113,6 +116,7 @@ cargo run --bin ch04_10_fn_method
 | 4.8     | if let Syntactic Sugar  | [ch04_8_if_let.rs](src/bin/ch04_8_if_let.rs)                     | [ch04_8_if_let.md](docs/ch04_8_if_let.md)                          |
 | 4.9     | while let Syntactic Sugar | [ch04_9_while_let.rs](src/bin/ch04_9_while_let.rs)               | [ch04_9_while_let.md](docs/ch04_9_while_let.md)                    |
 | 4.10    | Functions and Methods   | [ch04_10_fn_method.rs](src/bin/ch04_10_fn_method.rs)              | [ch04_10_fn_method.md](docs/ch04_10_fn_method.md)                   |
+| 4.11    | Functions and Closures  | [ch04_11_fn_closure.rs](src/bin/ch04_11_fn_closure.rs)            | [ch04_11_fn_closure.md](docs/ch04_11_fn_closure.md)                 |
 
 > More chapters coming soon...
 
