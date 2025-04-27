@@ -28,6 +28,7 @@ rcrash/
 │       ├── ch04_6_for.rs               # 4.6 for/range 迭代
 │       ├── ch04_7_match.rs             # 4.7 match 语法
 │       ├── ch04_8_if_let.rs            # 4.8 if let 语法糖
+│       ├── ch04_9_while_let.rs         # 4.9 while let 语法糖
 │       └── ...                         # 更多章节示例
 ├── docs/
 │   ├── ch03_3_var_mut.md               # 3.3 变量与可变性
@@ -48,6 +49,7 @@ rcrash/
 │   ├── ch04_6_for.md                   # 4.6 for/range 迭代
 │   ├── ch04_7_match.md                 # 4.7 match 语法
 │   ├── ch04_8_if_let.md                # 4.8 if let 语法糖
+│   ├── ch04_9_while_let.md             # 4.9 while let 语法糖
 │   └── ...                             # 更多章节文档
 └── README.md                           # 项目简介与索引
 ```
@@ -79,6 +81,7 @@ cargo run --bin ch04_5_while
 cargo run --bin ch04_6_for
 cargo run --bin ch04_7_match
 cargo run --bin ch04_8_if_let
+cargo run --bin ch04_9_while_let
 ```
 
 ---
@@ -105,6 +108,7 @@ cargo run --bin ch04_8_if_let
 | 4.6    | for/range 迭代 | [ch04_6_for.rs](src/bin/ch04_6_for.rs)                          | [ch04_6_for.md](docs/ch04_6_for.md)                            |
 | 4.7    | match 语法     | [ch04_7_match.rs](src/bin/ch04_7_match.rs)                      | [ch04_7_match.md](docs/ch04_7_match.md)                        |
 | 4.8    | if let 语法糖  | [ch04_8_if_let.rs](src/bin/ch04_8_if_let.rs)                    | [ch04_8_if_let.md](docs/ch04_8_if_let.md)                      |
+| 4.9    | while let 语法糖 | [ch04_9_while_let.rs](src/bin/ch04_9_while_let.rs)              | [ch04_9_while_let.md](docs/ch04_9_while_let.md)               |
 
 > 更多章节持续更新中...
 
