@@ -36,6 +36,7 @@ rcrash/
 │       ├── ch04_15_guess.rs            # 4.15 猜数字游戏
 │       ├── ch05_02_mod.rs               # 5.2 Rust 模块化编程
 │       ├── ch05_03_pub.rs               # 5.3 Rust 可见性控制
+│       ├── ch05_04_struct_visibility.rs # 5.4 Rust 结构体可见性
 │       └── ...                         # 更多章节示例
 ├── docs/
 │   ├── ch03_3_var_mut.md               # 3.3 变量与可变性
@@ -64,6 +65,7 @@ rcrash/
 │   ├── ch04_15_guess.md                # 4.15 猜数字游戏
 │   ├── ch05_02_mod.md                   # 5.2 Rust 模块化编程
 │   ├── ch05_03_pub.md                   # 5.3 Rust 可见性控制
+│   ├── ch05_04_struct_visibility.md    # 5.4 Rust 结构体可见性
 │   └── ...                             # 更多章节文档
 └── README.md                           # 项目简介与索引
 ```
@@ -103,6 +105,7 @@ cargo run --bin ch04_14_never
 cargo run --bin ch04_15_guess
 cargo run --bin ch05_02_mod
 cargo run --bin ch05_03_pub
+cargo run --bin ch05_04_struct_visibility
 ```
 
 ---
@@ -137,6 +140,8 @@ cargo run --bin ch05_03_pub
 | 4.15   | 猜数字游戏       | [ch04_15_guess.rs](src/bin/ch04_15_guess.rs)                     | [ch04_15_guess.md](docs/ch04_15_guess.md)                       |
 | 5.2    | Rust 模块化编程 | [ch05_02_mod.rs](src/bin/ch05_02_mod.rs)                        | [ch05_02_mod.md](docs/ch05_02_mod.md)                          |
 | 5.3    | Rust 可见性控制 | [ch05_03_pub.rs](src/bin/ch05_03_pub.rs)                        | [ch05_03_pub.md](docs/ch05_03_pub.md)                          |
+| 5.4    | Rust 结构体可见性 | [ch05_04_struct_visibility.rs](src/bin/ch05_04_struct_visibility.rs) | [ch05_04_struct_visibility.md](docs/ch05_04_struct_visibility.md) |
+| 5.4    | 结构体及字段可见性示例，演示结构体、字段的 pub 控制、封装与典型用法。文档为英文，详细说明 struct 及字段的独立可见性、表格对比与示例代码。 | [ch05_04_struct_visibility.rs](src/bin/ch05_04_struct_visibility.rs) | [ch05_04_struct_visibility.md](docs/ch05_04_struct_visibility.md) |
 
 > 更多章节持续更新中...
 
@@ -151,4 +156,5 @@ cargo run --bin ch05_03_pub
 - [ch05_03_pub.rs](src/bin/ch05_03_pub.rs)：可见性控制示例，包含 `pub(self)`、`pub(super)`、`pub(crate)`、`pub` 的用法与典型场景。
 - [docs/ch05_02_mod.md](docs/ch05_02_mod.md)：模块化编程英文文档，包含模块声明、可见性说明、示例代码与对比表。
 - [docs/ch05_03_pub.md](docs/ch05_03_pub.md)：可见性控制英文文档，详细解释 Rust 各种可见性修饰符及用法。
+- [docs/ch05_04_struct_visibility.md](docs/ch05_04_struct_visibility.md)：结构体可见性英文文档，详细说明 struct 及字段的独立可见性、表格对比与示例代码。
 - 欢迎反馈、补充和共建更多章节！

@@ -36,6 +36,7 @@ rcrash/
 │       ├── ch04_15_guess.rs            # 4.15 Guessing Game
 │       ├── ch05_02_mod.rs               # 5.2 Modular Programming
 │       ├── ch05_03_pub.rs               # 5.3 Visibility with pub
+│       ├── ch05_04_struct_visibility.rs # 5.4 Struct Visibility
 │       └── ...                         # More chapter demos
 ├── docs/
 │   ├── ch03_3_var_mut.md               # 3.3 Variables and Mutability
@@ -64,6 +65,7 @@ rcrash/
 │   ├── ch04_15_guess.md                # 4.15 Guessing Game
 │   ├── ch05_02_mod.md                   # 5.2 Modular Programming
 │   ├── ch05_03_pub.md                   # 5.3 Visibility with pub
+│   ├── ch05_04_struct_visibility.md     # 5.4 Struct Visibility
 │   └── ...                             # More chapter docs
 └── README.md                           # Project introduction and index
 ```
@@ -103,6 +105,7 @@ cargo run --bin ch04_14_never
 cargo run --bin ch04_15_guess
 cargo run --bin ch05_02_mod
 cargo run --bin ch05_03_pub
+cargo run --bin ch05_04_struct_visibility
 ```
 
 ---
@@ -137,6 +140,8 @@ cargo run --bin ch05_03_pub
 | 4.15    | Guessing Game                 | [ch04_15_guess.rs](src/bin/ch04_15_guess.rs)                      | [ch04_15_guess.md](docs/ch04_15_guess.md)                           |
 | 5.2     | Modular Programming           | [ch05_02_mod.rs](src/bin/ch05_02_mod.rs)                          | [ch05_02_mod.md](docs/ch05_02_mod.md)                              |
 | 5.3     | Visibility with pub           | [ch05_03_pub.rs](src/bin/ch05_03_pub.rs)                          | [ch05_03_pub.md](docs/ch05_03_pub.md)                              |
+| 5.4     | Struct Visibility             | [ch05_04_struct_visibility.rs](src/bin/ch05_04_struct_visibility.rs) | [ch05_04_struct_visibility.md](docs/ch05_04_struct_visibility.md) |
+| 5.5     | ...                           | ...                                                               | ...                                                               |
 
 > More chapters coming soon...
 
