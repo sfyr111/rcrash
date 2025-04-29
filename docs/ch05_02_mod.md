@@ -1,14 +1,14 @@
-# 5.2 模块化编程（Modular Programming in Rust）
+# 5.2 Modular Programming in Rust
 
-## 关键要点
+## Key Points
 
-- Rust 的模块（module）通过 `mod` 关键字声明，用于组织代码、控制可见性和实现封装。
-- 默认情况下，模块内的项是私有的（private），需要 `pub` 关键字公开。
-- 模块可以嵌套，形成层级结构。
-- 使用 `::` 语法访问模块中的公开项。
-- 私有项只能在当前模块及其子模块中访问。
+- Rust modules are declared with `mod` and used to organize code, control visibility, and encapsulate implementation details.
+- By default, items in a module are private; use `pub` to make them public.
+- Modules can be nested to form a hierarchy.
+- Use `::` syntax to access public items in modules.
+- Private items are accessible only within their module and submodules.
 
-## 示例代码
+## Example Code
 
 ```rust
 // ch05_02_mod.rs
@@ -48,20 +48,20 @@ fn main() {
 }
 ```
 
-## 表格：模块可见性对比
+## Table: Module Visibility Comparison
 
-| 作用域        | 访问私有项 | 访问公有项 |
-|---------------|:----------:|:----------:|
-| 当前模块      | ✅         | ✅         |
-| 子模块        | ✅         | ✅         |
-| 父模块/外部   | ❌         | ✅         |
+| Scope                | Access Private Items | Access Public Items |
+|----------------------|:-------------------:|:------------------:|
+| Current module       | ✅                  | ✅                 |
+| Submodules           | ✅                  | ✅                 |
+| Parent/external code | ❌                  | ✅                 |
 
-## 注意事项
+## Notes
 
-- 推荐将相关功能组织进模块，提升代码可维护性和复用性。
-- 使用 `pub mod` 和 `pub fn` 逐步暴露 API，隐藏实现细节。
-- Rust 项目中可将模块拆分为多个文件，复杂项目建议使用 `mod.rs` 或文件夹结构。
+- It is recommended to group related functionality into modules for better maintainability and reusability.
+- Use `pub mod` and `pub fn` to expose APIs step by step, hiding implementation details.
+- In larger Rust projects, modules can be split across multiple files using the `mod.rs` or directory structure.
 
 ---
 
-> 参考：[Rust Book - 模块系统](https://kaisery.github.io/trpl-zh-cn/ch07-02-defining-modules-to-control-scope-and-privacy.html)
+> See also: [Rust Book - Defining Modules to Control Scope and Privacy](https://doc.rust-lang.org/book/ch07-02-defining-modules-to-control-scope-and-privacy.html)
