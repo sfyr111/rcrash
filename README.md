@@ -120,39 +120,41 @@ cargo run --bin ch05_06_super_self
 
 ## Chapter Index
 
-| Chapter | Topic                          | Demo File                                                        | Documentation                                                      |
-|---------|--------------------------------|-------------------------------------------------------------------|--------------------------------------------------------------------|
-| 3.3     | Variables and Mutability       | [ch03_3_var_mut.rs](src/bin/ch03_3_var_mut.rs)                   | [ch03_3_var_mut.md](docs/ch03_3_var_mut.md)                        |
-| 3.4     | Basic Data Types               | [ch03_4_basic_types.rs](src/bin/ch03_4_basic_types.rs)           | [ch03_4_basic_types.md](docs/ch03_4_basic_types.md)                |
-| 3.6     | Integer Overflow               | [ch03_6_integer_overflow.rs](src/bin/ch03_6_integer_overflow.rs) | [ch03_6_integer_overflow.md](docs/ch03_6_integer_overflow.md)      |
-| 3.7     | Tuple                          | [ch03_7_tuple.rs](src/bin/ch03_7_tuple.rs)                       | [ch03_7_tuple.md](docs/ch03_7_tuple.md)                            |
-| 3.8     | Array                          | [ch03_8_array.rs](src/bin/ch03_8_array.rs)                       | [ch03_8_array.md](docs/ch03_8_array.md)                            |
-| 3.9     | Slice Type                     | [ch03_9_slice.rs](src/bin/ch03_9_slice.rs)                       | [ch03_9_slice.md](docs/ch03_9_slice.md)                            |
-| 3.10    | Struct                         | [ch03_10_struct.rs](src/bin/ch03_10_struct.rs)                   | [ch03_10_struct.md](docs/ch03_10_struct.md)                        |
-| 3.11    | Enum                           | [ch03_11_enum.rs](src/bin/ch03_11_enum.rs)                       | [ch03_11_enum.md](docs/ch03_11_enum.md)                            |
-| 3.12    | Comment Types                 | [ch03_12_comment.rs](src/bin/ch03_12_comment.rs)                 | [ch03_12_comment.md](docs/ch03_12_comment.md)                      |
-| 3.13    | println! Macro                | [ch03_13_println.rs](src/bin/ch03_13_println.rs)                 | [ch03_13_println.md](docs/ch03_13_println.md)                      |
-| 3.14    | Type Conversion               | [ch03_14_cast.rs](src/bin/ch03_14_cast.rs)                       | [ch03_14_cast.md](docs/ch03_14_cast.md)                            |
-| 4.2     | Expression Forms              | [ch04_2_expr.rs](src/bin/ch04_2_expr.rs)                         | [ch04_2_expr.md](docs/ch04_2_expr.md)                              |
-| 4.3     | if/else Control Flow          | [ch04_3_if.rs](src/bin/ch04_3_if.rs)                             | [ch04_3_if.md](docs/ch04_3_if.md)                                  |
-| 4.4     | Using loop                    | [ch04_4_loop.rs](src/bin/ch04_4_loop.rs)                         | [ch04_4_loop.md](docs/ch04_4_loop.md)                              |
-| 4.5     | Using while                   | [ch04_5_while.rs](src/bin/ch04_5_while.rs)                       | [ch04_5_while.md](docs/ch04_5_while.md)                            |
-| 4.6     | Using for/range               | [ch04_6_for.rs](src/bin/ch04_6_for.rs)                           | [ch04_6_for.md](docs/ch04_6_for.md)                                |
-| 4.7     | match Syntax                  | [ch04_7_match.rs](src/bin/ch04_7_match.rs)                       | [ch04_7_match.md](docs/ch04_7_match.md)                            |
-| 4.8     | if let Syntactic Sugar        | [ch04_8_if_let.rs](src/bin/ch04_8_if_let.rs)                     | [ch04_8_if_let.md](docs/ch04_8_if_let.md)                          |
-| 4.9     | while let Syntactic Sugar     | [ch04_9_while_let.rs](src/bin/ch04_9_while_let.rs)               | [ch04_9_while_let.md](docs/ch04_9_while_let.md)                    |
-| 4.10    | Functions and Methods         | [ch04_10_fn_method.rs](src/bin/ch04_10_fn_method.rs)              | [ch04_10_fn_method.md](docs/ch04_10_fn_method.md)                   |
-| 4.11    | Functions and Closures        | [ch04_11_fn_closure.rs](src/bin/ch04_11_fn_closure.rs)            | [ch04_11_fn_closure.md](docs/ch04_11_fn_closure.md)                 |
-| 4.13    | High-Order Functions          | [ch04_13_high_order.rs](src/bin/ch04_13_high_order.rs)            | [ch04_13_high_order.md](docs/ch04_13_high_order.md)                 |
-| 4.14    | Diverging Functions (Never)   | [ch04_14_never.rs](src/bin/ch04_14_never.rs)                      | [ch04_14_never.md](docs/ch04_14_never.md)                           |
-| 4.15    | Guessing Game                 | [ch04_15_guess.rs](src/bin/ch04_15_guess.rs)                      | [ch04_15_guess.md](docs/ch04_15_guess.md)                           |
-| 5.2     | Modular Programming           | [ch05_02_mod.rs](src/bin/ch05_02_mod.rs)                          | [ch05_02_mod.md](docs/ch05_02_mod.md)                              |
-| 5.3     | Visibility with pub           | [ch05_03_pub.rs](src/bin/ch05_03_pub.rs)                          | [ch05_03_pub.md](docs/ch05_03_pub.md)                              |
-| 5.4     | Struct Visibility             | [ch05_04_struct_visibility.rs](src/bin/ch05_04_struct_visibility.rs) | [ch05_04_struct_visibility.md](docs/ch05_04_struct_visibility.md) |
-| 5.5     | Using `use` Binding           | [ch05_05_use_binding.rs](src/bin/ch05_05_use_binding.rs)             | [ch05_05_use_binding.md](docs/ch05_05_use_binding.md)             |
-| 5.6     | Using `super` and `self`      | [ch05_06_super_self.rs](src/bin/ch05_06_super_self.rs)               | [ch05_06_super_self.md](docs/ch05_06_super_self.md)               |
-| 5.8     | Project Directory Structure   | —                                                               | [ch05_08_project_structure.md](docs/ch05_08_project_structure.md) |
-| 5.5     | ...                           | ...                                                               | ...                                                               |
+---
+
+| #   | Chapter & Topic                  | Demo File                                                        | Documentation                                                      |
+|-----|-----------------------------------|-------------------------------------------------------------------|--------------------------------------------------------------------|
+| 3.3 | Variables and Mutability          | [`ch03_3_var_mut.rs`](src/bin/ch03_3_var_mut.rs)                   | [`ch03_3_var_mut.md`](docs/ch03_3_var_mut.md)                        |
+| 3.4 | Basic Data Types                  | [`ch03_4_basic_types.rs`](src/bin/ch03_4_basic_types.rs)           | [`ch03_4_basic_types.md`](docs/ch03_4_basic_types.md)                |
+| 3.6 | Integer Overflow                  | [`ch03_6_integer_overflow.rs`](src/bin/ch03_6_integer_overflow.rs) | [`ch03_6_integer_overflow.md`](docs/ch03_6_integer_overflow.md)      |
+| 3.7 | Tuple                             | [`ch03_7_tuple.rs`](src/bin/ch03_7_tuple.rs)                       | [`ch03_7_tuple.md`](docs/ch03_7_tuple.md)                            |
+| 3.8 | Array                             | [`ch03_8_array.rs`](src/bin/ch03_8_array.rs)                       | [`ch03_8_array.md`](docs/ch03_8_array.md)                            |
+| 3.9 | Slice Type                        | [`ch03_9_slice.rs`](src/bin/ch03_9_slice.rs)                       | [`ch03_9_slice.md`](docs/ch03_9_slice.md)                            |
+| 3.10| Struct                            | [`ch03_10_struct.rs`](src/bin/ch03_10_struct.rs)                   | [`ch03_10_struct.md`](docs/ch03_10_struct.md)                        |
+| 3.11| Enum                              | [`ch03_11_enum.rs`](src/bin/ch03_11_enum.rs)                       | [`ch03_11_enum.md`](docs/ch03_11_enum.md)                            |
+| 3.12| Comment Types                     | [`ch03_12_comment.rs`](src/bin/ch03_12_comment.rs)                 | [`ch03_12_comment.md`](docs/ch03_12_comment.md)                      |
+| 3.13| println! Macro                    | [`ch03_13_println.rs`](src/bin/ch03_13_println.rs)                 | [`ch03_13_println.md`](docs/ch03_13_println.md)                      |
+| 3.14| Type Conversion                   | [`ch03_14_cast.rs`](src/bin/ch03_14_cast.rs)                       | [`ch03_14_cast.md`](docs/ch03_14_cast.md)                            |
+| 4.2 | Expression Forms                  | [`ch04_2_expr.rs`](src/bin/ch04_2_expr.rs)                         | [`ch04_2_expr.md`](docs/ch04_2_expr.md)                              |
+| 4.3 | if/else Control Flow              | [`ch04_3_if.rs`](src/bin/ch04_3_if.rs)                             | [`ch04_3_if.md`](docs/ch04_3_if.md)                                  |
+| 4.4 | Using loop                        | [`ch04_4_loop.rs`](src/bin/ch04_4_loop.rs)                         | [`ch04_4_loop.md`](docs/ch04_4_loop.md)                              |
+| 4.5 | Using while                       | [`ch04_5_while.rs`](src/bin/ch04_5_while.rs)                       | [`ch04_5_while.md`](docs/ch04_5_while.md)                            |
+| 4.6 | Using for/range                   | [`ch04_6_for.rs`](src/bin/ch04_6_for.rs)                           | [`ch04_6_for.md`](docs/ch04_6_for.md)                                |
+| 4.7 | match Syntax                      | [`ch04_7_match.rs`](src/bin/ch04_7_match.rs)                       | [`ch04_7_match.md`](docs/ch04_7_match.md)                            |
+| 4.8 | if let Syntactic Sugar            | [`ch04_8_if_let.rs`](src/bin/ch04_8_if_let.rs)                     | [`ch04_8_if_let.md`](docs/ch04_8_if_let.md)                          |
+| 4.9 | while let Syntactic Sugar         | [`ch04_9_while_let.rs`](src/bin/ch04_9_while_let.rs)               | [`ch04_9_while_let.md`](docs/ch04_9_while_let.md)                    |
+| 4.10| Functions and Methods             | [`ch04_10_fn_method.rs`](src/bin/ch04_10_fn_method.rs)              | [`ch04_10_fn_method.md`](docs/ch04_10_fn_method.md)                   |
+| 4.11| Functions and Closures            | [`ch04_11_fn_closure.rs`](src/bin/ch04_11_fn_closure.rs)            | [`ch04_11_fn_closure.md`](docs/ch04_11_fn_closure.md)                 |
+| 4.13| High-Order Functions              | [`ch04_13_high_order.rs`](src/bin/ch04_13_high_order.rs)            | [`ch04_13_high_order.md`](docs/ch04_13_high_order.md)                 |
+| 4.14| Diverging Functions (Never)       | [`ch04_14_never.rs`](src/bin/ch04_14_never.rs)                      | [`ch04_14_never.md`](docs/ch04_14_never.md)                           |
+| 4.15| Guessing Game                     | [`ch04_15_guess.rs`](src/bin/ch04_15_guess.rs)                      | [`ch04_15_guess.md`](docs/ch04_15_guess.md)                           |
+| 5.2 | Modular Programming               | [`ch05_02_mod.rs`](src/bin/ch05_02_mod.rs)                          | [`ch05_02_mod.md`](docs/ch05_02_mod.md)                              |
+| 5.3 | Visibility with pub               | [`ch05_03_pub.rs`](src/bin/ch05_03_pub.rs)                          | [`ch05_03_pub.md`](docs/ch05_03_pub.md)                              |
+| 5.4 | Struct Visibility                 | [`ch05_04_struct_visibility.rs`](src/bin/ch05_04_struct_visibility.rs) | [`ch05_04_struct_visibility.md`](docs/ch05_04_struct_visibility.md) |
+| 5.5 | Using `use` Binding               | [`ch05_05_use_binding.rs`](src/bin/ch05_05_use_binding.rs)             | [`ch05_05_use_binding.md`](docs/ch05_05_use_binding.md)             |
+| 5.6 | Using `super` and `self`          | [`ch05_06_super_self.rs`](src/bin/ch05_06_super_self.rs)               | [`ch05_06_super_self.md`](docs/ch05_06_super_self.md)               |
+| 5.8 | Project Directory Structure        | —                                                               | [`ch05_08_project_structure.md`](docs/ch05_08_project_structure.md) |
+| ... | ...                               | ...                                                               | ...                                                               |
 
 > More chapters coming soon...
 

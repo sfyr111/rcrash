@@ -120,39 +120,41 @@ cargo run --bin ch05_06_super_self
 
 ## 章节索引
 
-| 章节   | 主题             | 示例代码                                                        | 配套文档                                                      |
-|--------|------------------|-----------------------------------------------------------------|---------------------------------------------------------------|
-| 3.3    | 变量与可变性   | [ch03_3_var_mut.rs](src/bin/ch03_3_var_mut.rs)                  | [ch03_3_var_mut.md](docs/ch03_3_var_mut.md)                   |
-| 3.4    | 基本数据类型   | [ch03_4_basic_types.rs](src/bin/ch03_4_basic_types.rs)          | [ch03_4_basic_types.md](docs/ch03_4_basic_types.md)            |
-| 3.6    | 整数溢出       | [ch03_6_integer_overflow.rs](src/bin/ch03_6_integer_overflow.rs)| [ch03_6_integer_overflow.md](docs/ch03_6_integer_overflow.md)  |
-| 3.7    | 元组           | [ch03_7_tuple.rs](src/bin/ch03_7_tuple.rs)                      | [ch03_7_tuple.md](docs/ch03_7_tuple.md)                        |
-| 3.8    | 数组           | [ch03_8_array.rs](src/bin/ch03_8_array.rs)                      | [ch03_8_array.md](docs/ch03_8_array.md)                        |
-| 3.9    | 切片类型       | [ch03_9_slice.rs](src/bin/ch03_9_slice.rs)                      | [ch03_9_slice.md](docs/ch03_9_slice.md)                        |
-| 3.10   | 结构体         | [ch03_10_struct.rs](src/bin/ch03_10_struct.rs)                  | [ch03_10_struct.md](docs/ch03_10_struct.md)                    |
-| 3.11   | 枚举           | [ch03_11_enum.rs](src/bin/ch03_11_enum.rs)                      | [ch03_11_enum.md](docs/ch03_11_enum.md)                        |
-| 3.12   | 注释类型       | [ch03_12_comment.rs](src/bin/ch03_12_comment.rs)                | [ch03_12_comment.md](docs/ch03_12_comment.md)                  |
-| 3.13   | println! 宏    | [ch03_13_println.rs](src/bin/ch03_13_println.rs)                | [ch03_13_println.md](docs/ch03_13_println.md)                  |
-| 3.14   | 类型转换       | [ch03_14_cast.rs](src/bin/ch03_14_cast.rs)                      | [ch03_14_cast.md](docs/ch03_14_cast.md)                        |
-| 4.2    | 表达式形式     | [ch04_2_expr.rs](src/bin/ch04_2_expr.rs)                        | [ch04_2_expr.md](docs/ch04_2_expr.md)                          |
-| 4.3    | if/else 选择结构| [ch04_3_if.rs](src/bin/ch04_3_if.rs)                            | [ch04_3_if.md](docs/ch04_3_if.md)                              |
-| 4.4    | loop 循环      | [ch04_4_loop.rs](src/bin/ch04_4_loop.rs)                        | [ch04_4_loop.md](docs/ch04_4_loop.md)                          |
-| 4.5    | while 循环     | [ch04_5_while.rs](src/bin/ch04_5_while.rs)                      | [ch04_5_while.md](docs/ch04_5_while.md)                        |
-| 4.6    | for/range 迭代 | [ch04_6_for.rs](src/bin/ch04_6_for.rs)                          | [ch04_6_for.md](docs/ch04_6_for.md)                            |
-| 4.7    | match 语法     | [ch04_7_match.rs](src/bin/ch04_7_match.rs)                      | [ch04_7_match.md](docs/ch04_7_match.md)                        |
-| 4.8    | if let 语法糖  | [ch04_8_if_let.rs](src/bin/ch04_8_if_let.rs)                    | [ch04_8_if_let.md](docs/ch04_8_if_let.md)                      |
-| 4.9    | while let 语法糖 | [ch04_9_while_let.rs](src/bin/ch04_9_while_let.rs)              | [ch04_9_while_let.md](docs/ch04_9_while_let.md)               |
-| 4.10   | 函数与方法     | [ch04_10_fn_method.rs](src/bin/ch04_10_fn_method.rs)             | [ch04_10_fn_method.md](docs/ch04_10_fn_method.md)              |
-| 4.11   | 函数与闭包     | [ch04_11_fn_closure.rs](src/bin/ch04_11_fn_closure.rs)           | [ch04_11_fn_closure.md](docs/ch04_11_fn_closure.md)            |
-| 4.13   | 高阶函数       | [ch04_13_high_order.rs](src/bin/ch04_13_high_order.rs)           | [ch04_13_high_order.md](docs/ch04_13_high_order.md)            |
-| 4.14   | 发散函数（Never）| [ch04_14_never.rs](src/bin/ch04_14_never.rs)                    | [ch04_14_never.md](docs/ch04_14_never.md)                      |
-| 4.15   | 猜数字游戏       | [ch04_15_guess.rs](src/bin/ch04_15_guess.rs)                     | [ch04_15_guess.md](docs/ch04_15_guess.md)                       |
-| 5.2    | Rust 模块化编程 | [ch05_02_mod.rs](src/bin/ch05_02_mod.rs)                        | [ch05_02_mod.md](docs/ch05_02_mod.md)                          |
-| 5.3    | Rust 可见性控制 | [ch05_03_pub.rs](src/bin/ch05_03_pub.rs)                        | [ch05_03_pub.md](docs/ch05_03_pub.md)                          |
-| 5.4    | Rust 结构体可见性 | [ch05_04_struct_visibility.rs](src/bin/ch05_04_struct_visibility.rs) | [ch05_04_struct_visibility.md](docs/ch05_04_struct_visibility.md) |
-| 5.5    | 使用 use 绑定模块成员 | [ch05_05_use_binding.rs](src/bin/ch05_05_use_binding.rs) | [ch05_05_use_binding.md](docs/ch05_05_use_binding.md) |
-| 5.6    | 使用 super 与 self 简化路径 | [ch05_06_super_self.rs](src/bin/ch05_06_super_self.rs) | [ch05_06_super_self.md](docs/ch05_06_super_self.md) |
-| 5.8    | Rust 项目目录层次结构 | — | [ch05_08_project_structure.md](docs/ch05_08_project_structure.md) |
-| 5.4    | 结构体及字段可见性示例，演示结构体、字段的 pub 控制、封装与典型用法。文档为英文，详细说明 struct 及字段的独立可见性、表格对比与示例代码。 | [ch05_04_struct_visibility.rs](src/bin/ch05_04_struct_visibility.rs) | [ch05_04_struct_visibility.md](docs/ch05_04_struct_visibility.md) |
+--------------------------------------------------------
+
+| 序号 | 主题                         | 示例代码                                                        | 配套文档                                                      |
+|------|------------------------------|-----------------------------------------------------------------|---------------------------------------------------------------|
+| 3.3  | 变量与可变性                 | [ch03_3_var_mut.rs](src/bin/ch03_3_var_mut.rs)                  | [ch03_3_var_mut.md](docs/ch03_3_var_mut.md)                   |
+| 3.4  | 基本数据类型                 | [ch03_4_basic_types.rs](src/bin/ch03_4_basic_types.rs)          | [ch03_4_basic_types.md](docs/ch03_4_basic_types.md)            |
+| 3.6  | 整数溢出                     | [ch03_6_integer_overflow.rs](src/bin/ch03_6_integer_overflow.rs)| [ch03_6_integer_overflow.md](docs/ch03_6_integer_overflow.md)  |
+| 3.7  | 元组                         | [ch03_7_tuple.rs](src/bin/ch03_7_tuple.rs)                      | [ch03_7_tuple.md](docs/ch03_7_tuple.md)                        |
+| 3.8  | 数组                         | [ch03_8_array.rs](src/bin/ch03_8_array.rs)                      | [ch03_8_array.md](docs/ch03_8_array.md)                        |
+| 3.9  | 切片类型                     | [ch03_9_slice.rs](src/bin/ch03_9_slice.rs)                      | [ch03_9_slice.md](docs/ch03_9_slice.md)                        |
+| 3.10 | 结构体                       | [ch03_10_struct.rs](src/bin/ch03_10_struct.rs)                  | [ch03_10_struct.md](docs/ch03_10_struct.md)                    |
+| 3.11 | 枚举                         | [ch03_11_enum.rs](src/bin/ch03_11_enum.rs)                      | [ch03_11_enum.md](docs/ch03_11_enum.md)                        |
+| 3.12 | 注释类型                     | [ch03_12_comment.rs](src/bin/ch03_12_comment.rs)                | [ch03_12_comment.md](docs/ch03_12_comment.md)                  |
+| 3.13 | println! 宏                  | [ch03_13_println.rs](src/bin/ch03_13_println.rs)                | [ch03_13_println.md](docs/ch03_13_println.md)                  |
+| 3.14 | 类型转换                     | [ch03_14_cast.rs](src/bin/ch03_14_cast.rs)                      | [ch03_14_cast.md](docs/ch03_14_cast.md)                        |
+| 4.2  | 表达式形式                   | [ch04_2_expr.rs](src/bin/ch04_2_expr.rs)                        | [ch04_2_expr.md](docs/ch04_2_expr.md)                          |
+| 4.3  | if/else 选择结构             | [ch04_3_if.rs](src/bin/ch04_3_if.rs)                            | [ch04_3_if.md](docs/ch04_3_if.md)                              |
+| 4.4  | loop 循环                    | [ch04_4_loop.rs](src/bin/ch04_4_loop.rs)                        | [ch04_4_loop.md](docs/ch04_4_loop.md)                          |
+| 4.5  | while 循环                   | [ch04_5_while.rs](src/bin/ch04_5_while.rs)                      | [ch04_5_while.md](docs/ch04_5_while.md)                        |
+| 4.6  | for/range 迭代               | [ch04_6_for.rs](src/bin/ch04_6_for.rs)                          | [ch04_6_for.md](docs/ch04_6_for.md)                            |
+| 4.7  | match 语法                   | [ch04_7_match.rs](src/bin/ch04_7_match.rs)                      | [ch04_7_match.md](docs/ch04_7_match.md)                        |
+| 4.8  | if let 语法糖                | [ch04_8_if_let.rs](src/bin/ch04_8_if_let.rs)                    | [ch04_8_if_let.md](docs/ch04_8_if_let.md)                      |
+| 4.9  | while let 语法糖             | [ch04_9_while_let.rs](src/bin/ch04_9_while_let.rs)              | [ch04_9_while_let.md](docs/ch04_9_while_let.md)                |
+| 4.10 | 函数与方法                   | [ch04_10_fn_method.rs](src/bin/ch04_10_fn_method.rs)             | [ch04_10_fn_method.md](docs/ch04_10_fn_method.md)               |
+| 4.11 | 函数与闭包                   | [ch04_11_fn_closure.rs](src/bin/ch04_11_fn_closure.rs)           | [ch04_11_fn_closure.md](docs/ch04_11_fn_closure.md)             |
+| 4.13 | 高阶函数                     | [ch04_13_high_order.rs](src/bin/ch04_13_high_order.rs)           | [ch04_13_high_order.md](docs/ch04_13_high_order.md)             |
+| 4.14 | 发散函数（Never 类型）        | [ch04_14_never.rs](src/bin/ch04_14_never.rs)                     | [ch04_14_never.md](docs/ch04_14_never.md)                      |
+| 4.15 | 猜数字游戏                   | [ch04_15_guess.rs](src/bin/ch04_15_guess.rs)                     | [ch04_15_guess.md](docs/ch04_15_guess.md)                      |
+| 5.2  | Rust 模块化编程              | [ch05_02_mod.rs](src/bin/ch05_02_mod.rs)                         | [ch05_02_mod.md](docs/ch05_02_mod.md)                          |
+| 5.3  | Rust 可见性控制              | [ch05_03_pub.rs](src/bin/ch05_03_pub.rs)                         | [ch05_03_pub.md](docs/ch05_03_pub.md)                          |
+| 5.4  | Rust 结构体可见性            | [ch05_04_struct_visibility.rs](src/bin/ch05_04_struct_visibility.rs) | [ch05_04_struct_visibility.md](docs/ch05_04_struct_visibility.md) |
+| 5.5  | 使用 use 绑定模块成员         | [ch05_05_use_binding.rs](src/bin/ch05_05_use_binding.rs)          | [ch05_05_use_binding.md](docs/ch05_05_use_binding.md)           |
+| 5.6  | 使用 super 与 self 简化路径   | [ch05_06_super_self.rs](src/bin/ch05_06_super_self.rs)            | [ch05_06_super_self.md](docs/ch05_06_super_self.md)             |
+| 5.8  | Rust 项目目录层次结构         | — | [ch05_08_project_structure.md](docs/ch05_08_project_structure.md) |
+| ...  | ...                          | ...                                                               | ...                                                               |
 
 > 更多章节持续更新中...
 
