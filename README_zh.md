@@ -39,6 +39,7 @@ rcrash/
 │       ├── ch05_04_struct_visibility.rs # 5.4 Rust 结构体可见性
 │       ├── ch05_05_use_binding.rs       # 5.5 使用 use 绑定模块成员
 │       ├── ch05_06_super_self.rs        # 5.6 使用 super 与 self 简化路径
+│       ├── ch05_08_project_structure.md # 5.8 Rust 项目目录层次结构（文档）
 │       └── ...                         # 更多章节示例
 ├── docs/
 │   ├── ch03_3_var_mut.md               # 3.3 变量与可变性
@@ -70,6 +71,7 @@ rcrash/
 │   ├── ch05_04_struct_visibility.md    # 5.4 Rust 结构体可见性
 │   ├── ch05_05_use_binding.md          # 5.5 使用 use 绑定模块成员
 │   ├── ch05_06_super_self.md           # 5.6 使用 super 与 self 简化路径
+│   ├── ch05_08_project_structure.md    # 5.8 Rust 项目目录层次结构
 │   └── ...                             # 更多章节文档
 └── README.md                           # 项目简介与索引
 ```
@@ -149,6 +151,7 @@ cargo run --bin ch05_06_super_self
 | 5.4    | Rust 结构体可见性 | [ch05_04_struct_visibility.rs](src/bin/ch05_04_struct_visibility.rs) | [ch05_04_struct_visibility.md](docs/ch05_04_struct_visibility.md) |
 | 5.5    | 使用 use 绑定模块成员 | [ch05_05_use_binding.rs](src/bin/ch05_05_use_binding.rs) | [ch05_05_use_binding.md](docs/ch05_05_use_binding.md) |
 | 5.6    | 使用 super 与 self 简化路径 | [ch05_06_super_self.rs](src/bin/ch05_06_super_self.rs) | [ch05_06_super_self.md](docs/ch05_06_super_self.md) |
+| 5.8    | Rust 项目目录层次结构 | — | [ch05_08_project_structure.md](docs/ch05_08_project_structure.md) |
 | 5.4    | 结构体及字段可见性示例，演示结构体、字段的 pub 控制、封装与典型用法。文档为英文，详细说明 struct 及字段的独立可见性、表格对比与示例代码。 | [ch05_04_struct_visibility.rs](src/bin/ch05_04_struct_visibility.rs) | [ch05_04_struct_visibility.md](docs/ch05_04_struct_visibility.md) |
 
 > 更多章节持续更新中...

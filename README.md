@@ -39,6 +39,7 @@ rcrash/
 │       ├── ch05_04_struct_visibility.rs # 5.4 Struct Visibility
 │       ├── ch05_05_use_binding.rs       # 5.5 Using `use` Binding
 │       ├── ch05_06_super_self.rs        # 5.6 Using `super` and `self`
+│       ├── ch05_08_project_structure.md # 5.8 Project Directory Structure
 │       └── ...                         # More chapter demos
 ├── docs/
 │   ├── ch03_3_var_mut.md               # 3.3 Variables and Mutability
@@ -70,6 +71,7 @@ rcrash/
 │   ├── ch05_04_struct_visibility.md     # 5.4 Struct Visibility
 │   ├── ch05_05_use_binding.md           # 5.5 Using `use` Binding
 │   ├── ch05_06_super_self.md            # 5.6 Using `super` and `self`
+│   ├── ch05_08_project_structure.md     # 5.8 Project Directory Structure
 │   └── ...                             # More chapter docs
 └── README.md                           # Project introduction and index
 ```
@@ -149,6 +151,7 @@ cargo run --bin ch05_06_super_self
 | 5.4     | Struct Visibility             | [ch05_04_struct_visibility.rs](src/bin/ch05_04_struct_visibility.rs) | [ch05_04_struct_visibility.md](docs/ch05_04_struct_visibility.md) |
 | 5.5     | Using `use` Binding           | [ch05_05_use_binding.rs](src/bin/ch05_05_use_binding.rs)             | [ch05_05_use_binding.md](docs/ch05_05_use_binding.md)             |
 | 5.6     | Using `super` and `self`      | [ch05_06_super_self.rs](src/bin/ch05_06_super_self.rs)               | [ch05_06_super_self.md](docs/ch05_06_super_self.md)               |
+| 5.8     | Project Directory Structure   | —                                                               | [ch05_08_project_structure.md](docs/ch05_08_project_structure.md) |
 | 5.5     | ...                           | ...                                                               | ...                                                               |
 
 > More chapters coming soon...
