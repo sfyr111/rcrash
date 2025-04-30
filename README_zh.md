@@ -114,6 +114,8 @@ cargo run --bin ch05_03_pub
 cargo run --bin ch05_04_struct_visibility
 cargo run --bin ch05_05_use_binding
 cargo run --bin ch05_06_super_self
+cargo run --bin ch06_02_generic_fn_param
+cargo run --bin ch06_03_generic_struct
 ```
 
 ---
@@ -155,6 +157,7 @@ cargo run --bin ch05_06_super_self
 | 5.6  | 使用 super 与 self 简化路径   | [ch05_06_super_self.rs](src/bin/ch05_06_super_self.rs)            | [ch05_06_super_self.md](docs/ch05_06_super_self.md)             |
 | 5.8  | Rust 项目目录层次结构         | — | [ch05_08_project_structure.md](docs/ch05_08_project_structure.md) |
 | 6.2  | 泛型作为函数参数的类型         | [ch06_02_generic_fn_param.rs](src/bin/ch06_02_generic_fn_param.rs) | [ch06_02_generic_fn_param.md](docs/ch06_02_generic_fn_param.md) |
+| 6.3  | 结构体中的泛型                   | [ch06_03_generic_struct.rs](src/bin/ch06_03_generic_struct.rs) | [ch06_03_generic_struct.md](docs/ch06_03_generic_struct.md) |
 | ...  | ...                          | ...                                                               | ...                                                               |
 
 > 更多章节持续更新中...
