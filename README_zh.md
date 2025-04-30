@@ -154,6 +154,7 @@ cargo run --bin ch05_06_super_self
 | 5.5  | 使用 use 绑定模块成员         | [ch05_05_use_binding.rs](src/bin/ch05_05_use_binding.rs)          | [ch05_05_use_binding.md](docs/ch05_05_use_binding.md)           |
 | 5.6  | 使用 super 与 self 简化路径   | [ch05_06_super_self.rs](src/bin/ch05_06_super_self.rs)            | [ch05_06_super_self.md](docs/ch05_06_super_self.md)             |
 | 5.8  | Rust 项目目录层次结构         | — | [ch05_08_project_structure.md](docs/ch05_08_project_structure.md) |
+| 6.2  | 泛型作为函数参数的类型         | [ch06_02_generic_fn_param.rs](src/bin/ch06_02_generic_fn_param.rs) | [ch06_02_generic_fn_param.md](docs/ch06_02_generic_fn_param.md) |
 | ...  | ...                          | ...                                                               | ...                                                               |
 
 > 更多章节持续更新中...

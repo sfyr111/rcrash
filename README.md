@@ -154,6 +154,7 @@ cargo run --bin ch05_06_super_self
 | 5.5 | Using `use` Binding               | [`ch05_05_use_binding.rs`](src/bin/ch05_05_use_binding.rs)             | [`ch05_05_use_binding.md`](docs/ch05_05_use_binding.md)             |
 | 5.6 | Using `super` and `self`          | [`ch05_06_super_self.rs`](src/bin/ch05_06_super_self.rs)               | [`ch05_06_super_self.md`](docs/ch05_06_super_self.md)               |
 | 5.8 | Project Directory Structure        | —                                                               | [`ch05_08_project_structure.md`](docs/ch05_08_project_structure.md) |
+| 6.2 | Generics as Function Parameter Types | [`ch06_02_generic_fn_param.rs`](src/bin/ch06_02_generic_fn_param.rs) | [`ch06_02_generic_fn_param.md`](docs/ch06_02_generic_fn_param.md) |
 | ... | ...                               | ...                                                               | ...                                                               |
 
 > More chapters coming soon...
