@@ -158,6 +158,7 @@ cargo run --bin ch06_03_generic_struct
 | 5.8  | Rust 项目目录层次结构         | — | [ch05_08_project_structure.md](docs/ch05_08_project_structure.md) |
 | 6.2  | 泛型作为函数参数的类型         | [ch06_02_generic_fn_param.rs](src/bin/ch06_02_generic_fn_param.rs) | [ch06_02_generic_fn_param.md](docs/ch06_02_generic_fn_param.md) |
 | 6.3  | 结构体中的泛型                   | [ch06_03_generic_struct.rs](src/bin/ch06_03_generic_struct.rs) | [ch06_03_generic_struct.md](docs/ch06_03_generic_struct.md) |
+| 6.5  | 使用 Traits 定义共同的行为         | [ch06_05_traits.rs](src/bin/ch06_05_traits.rs) | [ch06_05_traits.md](docs/ch06_05_traits.md) |
 | ...  | ...                          | ...                                                               | ...                                                               |
 
 > 更多章节持续更新中...
