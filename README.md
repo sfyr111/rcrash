@@ -158,6 +158,7 @@ cargo run --bin ch06_03_generic_struct
 | 5.8 | Project Directory Structure        | —                                                               | [`ch05_08_project_structure.md`](docs/ch05_08_project_structure.md) |
 | 6.2 | Generics as Function Parameter Types | [`ch06_02_generic_fn_param.rs`](src/bin/ch06_02_generic_fn_param.rs) | [`ch06_02_generic_fn_param.md`](docs/ch06_02_generic_fn_param.md) |
 | 6.3 | Generics in Structs                 | [`ch06_03_generic_struct.rs`](src/bin/ch06_03_generic_struct.rs) | [`ch06_03_generic_struct.md`](docs/ch06_03_generic_struct.md) |
+| 6.4 | Implementations for Generic Structs | [`ch06_04_generic_struct_impl.rs`](src/bin/ch06_04_generic_struct_impl.rs) | [`ch06_04_generic_struct_impl.md`](docs/ch06_04_generic_struct_impl.md) |
 | ... | ...                               | ...                                                               | ...                                                               |
 
 > More chapters coming soon...
