@@ -116,6 +116,9 @@ cargo run --bin ch05_05_use_binding
 cargo run --bin ch05_06_super_self
 cargo run --bin ch06_02_generic_fn_param
 cargo run --bin ch06_03_generic_struct
+cargo run --bin ch06_04_generic_struct_impl
+cargo run --bin ch06_05_traits
+cargo run --bin ch06_06_derive
 ```
 
 ---
@@ -160,6 +163,7 @@ cargo run --bin ch06_03_generic_struct
 | 6.3 | Generics in Structs                 | [`ch06_03_generic_struct.rs`](src/bin/ch06_03_generic_struct.rs) | [`ch06_03_generic_struct.md`](docs/ch06_03_generic_struct.md) |
 | 6.4 | Implementations for Generic Structs | [`ch06_04_generic_struct_impl.rs`](src/bin/ch06_04_generic_struct_impl.rs) | [`ch06_04_generic_struct_impl.md`](docs/ch06_04_generic_struct_impl.md) |
 | 6.5 | Defining Shared Behavior with Traits | [`ch06_05_traits.rs`](src/bin/ch06_05_traits.rs) | [`ch06_05_traits.md`](docs/ch06_05_traits.md) |
+| 6.6 | Automatic Derivation | [`ch06_06_derive.rs`](src/bin/ch06_06_derive.rs) | [`ch06_06_derive.md`](docs/ch06_06_derive.md) |
 | ... | ...                               | ...                                                               | ...                                                               |
 
 > More chapters coming soon...

@@ -116,6 +116,9 @@ cargo run --bin ch05_05_use_binding
 cargo run --bin ch05_06_super_self
 cargo run --bin ch06_02_generic_fn_param
 cargo run --bin ch06_03_generic_struct
+cargo run --bin ch06_04_generic_struct_impl
+cargo run --bin ch06_05_traits
+cargo run --bin ch06_06_derive
 ```
 
 ---
@@ -158,7 +161,9 @@ cargo run --bin ch06_03_generic_struct
 | 5.8  | Rust 项目目录层次结构         | — | [ch05_08_project_structure.md](docs/ch05_08_project_structure.md) |
 | 6.2  | 泛型作为函数参数的类型         | [ch06_02_generic_fn_param.rs](src/bin/ch06_02_generic_fn_param.rs) | [ch06_02_generic_fn_param.md](docs/ch06_02_generic_fn_param.md) |
 | 6.3  | 结构体中的泛型                   | [ch06_03_generic_struct.rs](src/bin/ch06_03_generic_struct.rs) | [ch06_03_generic_struct.md](docs/ch06_03_generic_struct.md) |
+| 6.4  | 结构体中的泛型实现              | [ch06_04_generic_struct_impl.rs](src/bin/ch06_04_generic_struct_impl.rs) | [ch06_04_generic_struct_impl.md](docs/ch06_04_generic_struct_impl.md) |
 | 6.5  | 使用 Traits 定义共同的行为         | [ch06_05_traits.rs](src/bin/ch06_05_traits.rs) | [ch06_05_traits.md](docs/ch06_05_traits.md) |
+| 6.6  | 自动派生                         | [ch06_06_derive.rs](src/bin/ch06_06_derive.rs) | [ch06_06_derive.md](docs/ch06_06_derive.md) |
 | ...  | ...                          | ...                                                               | ...                                                               |
 
 > 更多章节持续更新中...
