@@ -46,6 +46,7 @@ rcrash/
 │       ├── ch07_05_lifetime_annotation.rs # 7.5 生命周期注解（Lifetime Annotations）
 │       ├── ch08_02_unrecoverable.rs     # 8.2 不可恢复的错误
 │       ├── ch08_03_recoverable.rs     # 8.3 可恢复的错误
+│       ├── ch08_04_custom_error.rs     # 8.4 自定义错误与 ? 运算符
 │       └── ...                         # 更多章节示例
 ├── docs/
 │   ├── ch03_3_var_mut.md               # 3.3 变量与可变性
@@ -84,6 +85,7 @@ rcrash/
 │   ├── ch07_05_lifetime_annotation.md # 7.5 生命周期注解（Lifetime Annotations）
 │   ├── ch08_02_unrecoverable.md       # 8.2 不可恢复的错误
 │   ├── ch08_03_recoverable.md       # 8.3 可恢复的错误
+│   ├── ch08_04_custom_error.md       # 8.4 自定义错误与 ? 运算符
 │   └── ...                             # 更多章节文档
 └── README.md                           # 项目简介与索引
 ```
@@ -137,6 +139,7 @@ cargo run --bin ch07_04_lifetime
 cargo run --bin ch07_05_lifetime_annotation
 cargo run --bin ch08_02_unrecoverable
 cargo run --bin ch08_03_recoverable
+cargo run --bin ch08_04_custom_error
 ```
 
 ---
@@ -188,6 +191,7 @@ cargo run --bin ch08_03_recoverable
 | 7.5  | 生命周期注解（Lifetime Annotations） | [ch07_05_lifetime_annotation.rs](src/bin/ch07_05_lifetime_annotation.rs) | [ch07_05_lifetime_annotation.md](docs/ch07_05_lifetime_annotation.md) |
 | 8.2  | 不可恢复的错误（Unrecoverable Errors） | [ch08_02_unrecoverable.rs](src/bin/ch08_02_unrecoverable.rs) | [ch08_02_unrecoverable.md](docs/ch08_02_unrecoverable.md) |
 | 8.3  | 可恢复的错误（Recoverable Errors） | [ch08_03_recoverable.rs](src/bin/ch08_03_recoverable.rs) | [ch08_03_recoverable.md](docs/ch08_03_recoverable.md) |
+| 8.4  | 自定义错误与 ? 运算符 | [ch08_04_custom_error.rs](src/bin/ch08_04_custom_error.rs) | [ch08_04_custom_error.md](docs/ch08_04_custom_error.md) |
 | ...  | ...                          | ...                                                               | ...                                                               |
 
 > 更多章节持续更新中...

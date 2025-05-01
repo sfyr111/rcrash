@@ -51,6 +51,7 @@ rcrash/
 │       ├── ch07_05_lifetime_annotation.rs # 7.5 Lifetime Annotations in Rust
 │       ├── ch08_02_unrecoverable.rs     # 8.2 Unrecoverable Errors in Rust
 │       ├── ch08_03_recoverable.rs     # 8.3 Recoverable Errors in Rust
+│       ├── ch08_04_custom_error.rs     # 8.4 Custom Errors and the ? Operator
 │       └── ...                         # More chapter demos
 ├── docs/
 │   ├── ch03_3_var_mut.md               # 3.3 Variables and Mutability
@@ -94,6 +95,7 @@ rcrash/
 │   ├── ch07_05_lifetime_annotation.md   # 7.5 Lifetime Annotations in Rust
 │   ├── ch08_02_unrecoverable.md         # 8.2 Unrecoverable Errors in Rust
 │   ├── ch08_03_recoverable.md         # 8.3 Recoverable Errors in Rust
+│   ├── ch08_04_custom_error.md         # 8.4 Custom Errors and the ? Operator
 │   └── ...                             # More chapter docs
 └── README.md                           # Project introduction and index
 ```
@@ -147,6 +149,7 @@ cargo run --bin ch07_04_lifetime
 cargo run --bin ch07_05_lifetime_annotation
 cargo run --bin ch08_02_unrecoverable
 cargo run --bin ch08_03_recoverable
+cargo run --bin ch08_04_custom_error
 ```
 
 ---
@@ -198,6 +201,7 @@ cargo run --bin ch08_03_recoverable
 | 7.5 | Lifetime Annotations in Rust | [`ch07_05_lifetime_annotation.rs`](src/bin/ch07_05_lifetime_annotation.rs) | [`ch07_05_lifetime_annotation.md`](docs/ch07_05_lifetime_annotation.md) |
 | 8.2 | Unrecoverable Errors in Rust | [`ch08_02_unrecoverable.rs`](src/bin/ch08_02_unrecoverable.rs) | [`ch08_02_unrecoverable.md`](docs/ch08_02_unrecoverable.md) |
 | 8.3 | Recoverable Errors in Rust | [`ch08_03_recoverable.rs`](src/bin/ch08_03_recoverable.rs) | [`ch08_03_recoverable.md`](docs/ch08_03_recoverable.md) |
+| 8.4 | Custom Errors and the ? Operator | [`ch08_04_custom_error.rs`](src/bin/ch08_04_custom_error.rs) | [`ch08_04_custom_error.md`](docs/ch08_04_custom_error.md) |
 | ... | ...                               | ...                                                               | ...                                                               |
 
 > More chapters coming soon...
