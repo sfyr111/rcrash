@@ -40,6 +40,12 @@ rcrash/
 │       ├── ch05_05_use_binding.rs       # 5.5 Using `use` Binding
 │       ├── ch05_06_super_self.rs        # 5.6 Using `super` and `self`
 │       ├── ch05_08_project_structure.md # 5.8 Project Directory Structure
+│       ├── ch06_02_generic_fn_param.rs  # 6.2 Generics as Function Parameter Types
+│       ├── ch06_03_generic_struct.rs    # 6.3 Generics in Structs
+│       ├── ch06_04_generic_struct_impl.rs # 6.4 Implementations for Generic Structs
+│       ├── ch06_05_traits.rs            # 6.5 Defining Shared Behavior with Traits
+│       ├── ch06_06_derive.rs            # 6.6 Automatic Derivation
+│       ├── ch07_02_ownership.rs         # 7.2 Ownership in Rust
 │       └── ...                         # More chapter demos
 ├── docs/
 │   ├── ch03_3_var_mut.md               # 3.3 Variables and Mutability
@@ -72,6 +78,12 @@ rcrash/
 │   ├── ch05_05_use_binding.md           # 5.5 Using `use` Binding
 │   ├── ch05_06_super_self.md            # 5.6 Using `super` and `self`
 │   ├── ch05_08_project_structure.md     # 5.8 Project Directory Structure
+│   ├── ch06_02_generic_fn_param.md      # 6.2 Generics as Function Parameter Types
+│   ├── ch06_03_generic_struct.md        # 6.3 Generics in Structs
+│   ├── ch06_04_generic_struct_impl.md   # 6.4 Implementations for Generic Structs
+│   ├── ch06_05_traits.md                # 6.5 Defining Shared Behavior with Traits
+│   ├── ch06_06_derive.md                # 6.6 Automatic Derivation
+│   ├── ch07_02_ownership.md             # 7.2 Ownership in Rust
 │   └── ...                             # More chapter docs
 └── README.md                           # Project introduction and index
 ```
@@ -119,6 +131,7 @@ cargo run --bin ch06_03_generic_struct
 cargo run --bin ch06_04_generic_struct_impl
 cargo run --bin ch06_05_traits
 cargo run --bin ch06_06_derive
+cargo run --bin ch07_02_ownership
 ```
 
 ---
@@ -164,6 +177,7 @@ cargo run --bin ch06_06_derive
 | 6.4 | Implementations for Generic Structs | [`ch06_04_generic_struct_impl.rs`](src/bin/ch06_04_generic_struct_impl.rs) | [`ch06_04_generic_struct_impl.md`](docs/ch06_04_generic_struct_impl.md) |
 | 6.5 | Defining Shared Behavior with Traits | [`ch06_05_traits.rs`](src/bin/ch06_05_traits.rs) | [`ch06_05_traits.md`](docs/ch06_05_traits.md) |
 | 6.6 | Automatic Derivation | [`ch06_06_derive.rs`](src/bin/ch06_06_derive.rs) | [`ch06_06_derive.md`](docs/ch06_06_derive.md) |
+| 7.2 | Ownership in Rust | [`ch07_02_ownership.rs`](src/bin/ch07_02_ownership.rs) | [`ch07_02_ownership.md`](docs/ch07_02_ownership.md) |
 | ... | ...                               | ...                                                               | ...                                                               |
 
 > More chapters coming soon...

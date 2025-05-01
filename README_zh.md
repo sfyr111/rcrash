@@ -40,6 +40,7 @@ rcrash/
 │       ├── ch05_05_use_binding.rs       # 5.5 使用 use 绑定模块成员
 │       ├── ch05_06_super_self.rs        # 5.6 使用 super 与 self 简化路径
 │       ├── ch05_08_project_structure.md # 5.8 Rust 项目目录层次结构（文档）
+│       ├── ch07_02_ownership.rs         # 7.2 Rust 中的所有权（Ownership）
 │       └── ...                         # 更多章节示例
 ├── docs/
 │   ├── ch03_3_var_mut.md               # 3.3 变量与可变性
@@ -72,6 +73,7 @@ rcrash/
 │   ├── ch05_05_use_binding.md          # 5.5 使用 use 绑定模块成员
 │   ├── ch05_06_super_self.md           # 5.6 使用 super 与 self 简化路径
 │   ├── ch05_08_project_structure.md    # 5.8 Rust 项目目录层次结构
+│   ├── ch07_02_ownership.md            # 7.2 Rust 中的所有权（Ownership）
 │   └── ...                             # 更多章节文档
 └── README.md                           # 项目简介与索引
 ```
@@ -119,6 +121,7 @@ cargo run --bin ch06_03_generic_struct
 cargo run --bin ch06_04_generic_struct_impl
 cargo run --bin ch06_05_traits
 cargo run --bin ch06_06_derive
+cargo run --bin ch07_02_ownership
 ```
 
 ---
@@ -164,6 +167,7 @@ cargo run --bin ch06_06_derive
 | 6.4  | 结构体中的泛型实现              | [ch06_04_generic_struct_impl.rs](src/bin/ch06_04_generic_struct_impl.rs) | [ch06_04_generic_struct_impl.md](docs/ch06_04_generic_struct_impl.md) |
 | 6.5  | 使用 Traits 定义共同的行为         | [ch06_05_traits.rs](src/bin/ch06_05_traits.rs) | [ch06_05_traits.md](docs/ch06_05_traits.md) |
 | 6.6  | 自动派生                         | [ch06_06_derive.rs](src/bin/ch06_06_derive.rs) | [ch06_06_derive.md](docs/ch06_06_derive.md) |
+| 7.2  | Rust 中的所有权（Ownership）      | [ch07_02_ownership.rs](src/bin/ch07_02_ownership.rs) | [ch07_02_ownership.md](docs/ch07_02_ownership.md) |
 | ...  | ...                          | ...                                                               | ...                                                               |
 
 > 更多章节持续更新中...
