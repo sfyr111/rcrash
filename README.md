@@ -49,6 +49,7 @@ rcrash/
 │       ├── ch07_03_borrowing.rs         # 7.3 Borrowing in Rust
 │       ├── ch07_04_lifetime.rs          # 7.4 Lifetimes in Rust
 │       ├── ch07_05_lifetime_annotation.rs # 7.5 Lifetime Annotations in Rust
+│       ├── ch08_02_unrecoverable.rs     # 8.2 Unrecoverable Errors in Rust
 │       └── ...                         # More chapter demos
 ├── docs/
 │   ├── ch03_3_var_mut.md               # 3.3 Variables and Mutability
@@ -90,6 +91,7 @@ rcrash/
 │   ├── ch07_03_borrowing.md             # 7.3 Borrowing in Rust
 │   ├── ch07_04_lifetime.md              # 7.4 Lifetimes in Rust
 │   ├── ch07_05_lifetime_annotation.md   # 7.5 Lifetime Annotations in Rust
+│   ├── ch08_02_unrecoverable.md         # 8.2 Unrecoverable Errors in Rust
 │   └── ...                             # More chapter docs
 └── README.md                           # Project introduction and index
 ```
@@ -141,6 +143,7 @@ cargo run --bin ch07_02_ownership
 cargo run --bin ch07_03_borrowing
 cargo run --bin ch07_04_lifetime
 cargo run --bin ch07_05_lifetime_annotation
+cargo run --bin ch08_02_unrecoverable
 ```
 
 ---
@@ -190,6 +193,7 @@ cargo run --bin ch07_05_lifetime_annotation
 | 7.3 | Borrowing in Rust | [`ch07_03_borrowing.rs`](src/bin/ch07_03_borrowing.rs) | [`ch07_03_borrowing.md`](docs/ch07_03_borrowing.md) |
 | 7.4 | Lifetimes in Rust | [`ch07_04_lifetime.rs`](src/bin/ch07_04_lifetime.rs) | [`ch07_04_lifetime.md`](docs/ch07_04_lifetime.md) |
 | 7.5 | Lifetime Annotations in Rust | [`ch07_05_lifetime_annotation.rs`](src/bin/ch07_05_lifetime_annotation.rs) | [`ch07_05_lifetime_annotation.md`](docs/ch07_05_lifetime_annotation.md) |
+| 8.2 | Unrecoverable Errors in Rust | [`ch08_02_unrecoverable.rs`](src/bin/ch08_02_unrecoverable.rs) | [`ch08_02_unrecoverable.md`](docs/ch08_02_unrecoverable.md) |
 | ... | ...                               | ...                                                               | ...                                                               |
 
 > More chapters coming soon...
