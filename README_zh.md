@@ -45,6 +45,7 @@ rcrash/
 │       ├── ch07_04_lifetime.rs          # 7.4 Rust 中的生命周期（Lifetime）
 │       ├── ch07_05_lifetime_annotation.rs # 7.5 生命周期注解（Lifetime Annotations）
 │       ├── ch08_02_unrecoverable.rs     # 8.2 不可恢复的错误
+│       ├── ch08_03_recoverable.rs     # 8.3 可恢复的错误
 │       └── ...                         # 更多章节示例
 ├── docs/
 │   ├── ch03_3_var_mut.md               # 3.3 变量与可变性
@@ -82,6 +83,7 @@ rcrash/
 │   ├── ch07_04_lifetime.md             # 7.4 Rust 中的生命周期（Lifetime）
 │   ├── ch07_05_lifetime_annotation.md # 7.5 生命周期注解（Lifetime Annotations）
 │   ├── ch08_02_unrecoverable.md       # 8.2 不可恢复的错误
+│   ├── ch08_03_recoverable.md       # 8.3 可恢复的错误
 │   └── ...                             # 更多章节文档
 └── README.md                           # 项目简介与索引
 ```
@@ -134,6 +136,7 @@ cargo run --bin ch07_03_borrowing
 cargo run --bin ch07_04_lifetime
 cargo run --bin ch07_05_lifetime_annotation
 cargo run --bin ch08_02_unrecoverable
+cargo run --bin ch08_03_recoverable
 ```
 
 ---
@@ -184,6 +187,7 @@ cargo run --bin ch08_02_unrecoverable
 | 7.4  | Rust 中的生命周期（Lifetime）     | [ch07_04_lifetime.rs](src/bin/ch07_04_lifetime.rs) | [ch07_04_lifetime.md](docs/ch07_04_lifetime.md) |
 | 7.5  | 生命周期注解（Lifetime Annotations） | [ch07_05_lifetime_annotation.rs](src/bin/ch07_05_lifetime_annotation.rs) | [ch07_05_lifetime_annotation.md](docs/ch07_05_lifetime_annotation.md) |
 | 8.2  | 不可恢复的错误（Unrecoverable Errors） | [ch08_02_unrecoverable.rs](src/bin/ch08_02_unrecoverable.rs) | [ch08_02_unrecoverable.md](docs/ch08_02_unrecoverable.md) |
+| 8.3  | 可恢复的错误（Recoverable Errors） | [ch08_03_recoverable.rs](src/bin/ch08_03_recoverable.rs) | [ch08_03_recoverable.md](docs/ch08_03_recoverable.md) |
 | ...  | ...                          | ...                                                               | ...                                                               |
 
 > 更多章节持续更新中...
