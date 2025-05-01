@@ -46,6 +46,7 @@ rcrash/
 │       ├── ch06_05_traits.rs            # 6.5 Defining Shared Behavior with Traits
 │       ├── ch06_06_derive.rs            # 6.6 Automatic Derivation
 │       ├── ch07_02_ownership.rs         # 7.2 Ownership in Rust
+│       ├── ch07_03_borrowing.rs         # 7.3 Borrowing in Rust
 │       └── ...                         # More chapter demos
 ├── docs/
 │   ├── ch03_3_var_mut.md               # 3.3 Variables and Mutability
@@ -84,6 +85,7 @@ rcrash/
 │   ├── ch06_05_traits.md                # 6.5 Defining Shared Behavior with Traits
 │   ├── ch06_06_derive.md                # 6.6 Automatic Derivation
 │   ├── ch07_02_ownership.md             # 7.2 Ownership in Rust
+│   ├── ch07_03_borrowing.md             # 7.3 Borrowing in Rust
 │   └── ...                             # More chapter docs
 └── README.md                           # Project introduction and index
 ```
@@ -132,6 +134,7 @@ cargo run --bin ch06_04_generic_struct_impl
 cargo run --bin ch06_05_traits
 cargo run --bin ch06_06_derive
 cargo run --bin ch07_02_ownership
+cargo run --bin ch07_03_borrowing
 ```
 
 ---
@@ -178,6 +181,7 @@ cargo run --bin ch07_02_ownership
 | 6.5 | Defining Shared Behavior with Traits | [`ch06_05_traits.rs`](src/bin/ch06_05_traits.rs) | [`ch06_05_traits.md`](docs/ch06_05_traits.md) |
 | 6.6 | Automatic Derivation | [`ch06_06_derive.rs`](src/bin/ch06_06_derive.rs) | [`ch06_06_derive.md`](docs/ch06_06_derive.md) |
 | 7.2 | Ownership in Rust | [`ch07_02_ownership.rs`](src/bin/ch07_02_ownership.rs) | [`ch07_02_ownership.md`](docs/ch07_02_ownership.md) |
+| 7.3 | Borrowing in Rust | [`ch07_03_borrowing.rs`](src/bin/ch07_03_borrowing.rs) | [`ch07_03_borrowing.md`](docs/ch07_03_borrowing.md) |
 | ... | ...                               | ...                                                               | ...                                                               |
 
 > More chapters coming soon...

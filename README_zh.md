@@ -41,6 +41,7 @@ rcrash/
 │       ├── ch05_06_super_self.rs        # 5.6 使用 super 与 self 简化路径
 │       ├── ch05_08_project_structure.md # 5.8 Rust 项目目录层次结构（文档）
 │       ├── ch07_02_ownership.rs         # 7.2 Rust 中的所有权（Ownership）
+│       ├── ch07_03_borrowing.rs         # 7.3 Rust 中的借用（Borrowing）
 │       └── ...                         # 更多章节示例
 ├── docs/
 │   ├── ch03_3_var_mut.md               # 3.3 变量与可变性
@@ -74,6 +75,7 @@ rcrash/
 │   ├── ch05_06_super_self.md           # 5.6 使用 super 与 self 简化路径
 │   ├── ch05_08_project_structure.md    # 5.8 Rust 项目目录层次结构
 │   ├── ch07_02_ownership.md            # 7.2 Rust 中的所有权（Ownership）
+│   ├── ch07_03_borrowing.md            # 7.3 Rust 中的借用（Borrowing）
 │   └── ...                             # 更多章节文档
 └── README.md                           # 项目简介与索引
 ```
@@ -122,6 +124,7 @@ cargo run --bin ch06_04_generic_struct_impl
 cargo run --bin ch06_05_traits
 cargo run --bin ch06_06_derive
 cargo run --bin ch07_02_ownership
+cargo run --bin ch07_03_borrowing
 ```
 
 ---
@@ -168,6 +171,7 @@ cargo run --bin ch07_02_ownership
 | 6.5  | 使用 Traits 定义共同的行为         | [ch06_05_traits.rs](src/bin/ch06_05_traits.rs) | [ch06_05_traits.md](docs/ch06_05_traits.md) |
 | 6.6  | 自动派生                         | [ch06_06_derive.rs](src/bin/ch06_06_derive.rs) | [ch06_06_derive.md](docs/ch06_06_derive.md) |
 | 7.2  | Rust 中的所有权（Ownership）      | [ch07_02_ownership.rs](src/bin/ch07_02_ownership.rs) | [ch07_02_ownership.md](docs/ch07_02_ownership.md) |
+| 7.3  | Rust 中的借用（Borrowing）        | [ch07_03_borrowing.rs](src/bin/ch07_03_borrowing.rs) | [ch07_03_borrowing.md](docs/ch07_03_borrowing.md) |
 | ...  | ...                          | ...                                                               | ...                                                               |
 
 > 更多章节持续更新中...
