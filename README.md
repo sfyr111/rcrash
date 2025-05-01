@@ -47,6 +47,8 @@ rcrash/
 │       ├── ch06_06_derive.rs            # 6.6 Automatic Derivation
 │       ├── ch07_02_ownership.rs         # 7.2 Ownership in Rust
 │       ├── ch07_03_borrowing.rs         # 7.3 Borrowing in Rust
+│       ├── ch07_04_lifetime.rs          # 7.4 Lifetimes in Rust
+│       ├── ch07_05_lifetime_annotation.rs # 7.5 Lifetime Annotations in Rust
 │       └── ...                         # More chapter demos
 ├── docs/
 │   ├── ch03_3_var_mut.md               # 3.3 Variables and Mutability
@@ -86,6 +88,8 @@ rcrash/
 │   ├── ch06_06_derive.md                # 6.6 Automatic Derivation
 │   ├── ch07_02_ownership.md             # 7.2 Ownership in Rust
 │   ├── ch07_03_borrowing.md             # 7.3 Borrowing in Rust
+│   ├── ch07_04_lifetime.md              # 7.4 Lifetimes in Rust
+│   ├── ch07_05_lifetime_annotation.md   # 7.5 Lifetime Annotations in Rust
 │   └── ...                             # More chapter docs
 └── README.md                           # Project introduction and index
 ```
@@ -135,6 +139,8 @@ cargo run --bin ch06_05_traits
 cargo run --bin ch06_06_derive
 cargo run --bin ch07_02_ownership
 cargo run --bin ch07_03_borrowing
+cargo run --bin ch07_04_lifetime
+cargo run --bin ch07_05_lifetime_annotation
 ```
 
 ---
@@ -182,6 +188,8 @@ cargo run --bin ch07_03_borrowing
 | 6.6 | Automatic Derivation | [`ch06_06_derive.rs`](src/bin/ch06_06_derive.rs) | [`ch06_06_derive.md`](docs/ch06_06_derive.md) |
 | 7.2 | Ownership in Rust | [`ch07_02_ownership.rs`](src/bin/ch07_02_ownership.rs) | [`ch07_02_ownership.md`](docs/ch07_02_ownership.md) |
 | 7.3 | Borrowing in Rust | [`ch07_03_borrowing.rs`](src/bin/ch07_03_borrowing.rs) | [`ch07_03_borrowing.md`](docs/ch07_03_borrowing.md) |
+| 7.4 | Lifetimes in Rust | [`ch07_04_lifetime.rs`](src/bin/ch07_04_lifetime.rs) | [`ch07_04_lifetime.md`](docs/ch07_04_lifetime.md) |
+| 7.5 | Lifetime Annotations in Rust | [`ch07_05_lifetime_annotation.rs`](src/bin/ch07_05_lifetime_annotation.rs) | [`ch07_05_lifetime_annotation.md`](docs/ch07_05_lifetime_annotation.md) |
 | ... | ...                               | ...                                                               | ...                                                               |
 
 > More chapters coming soon...
