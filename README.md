@@ -7,6 +7,7 @@
   - [3.1 ch09_01_box.rs](#31-ch09_01_boxrs)
   - [3.2 ch09_02_deref.rs](#32-ch09_02_dereftrs)
   - [3.3 ch09_03_rc.rs](#33-ch09_03_rcrs)
+  - [3.4 ch09_04_vec.rs](#34-ch09_04_vecrs)
 - [4. Index](#4-index)
 
 ## 1. Introduction
@@ -23,6 +24,7 @@ To run the code, use the following commands:
 cargo run --bin ch09_01_box
 cargo run --bin ch09_02_deref
 cargo run --bin ch09_03_rc
+cargo run --bin ch09_04_vec
 ```
 
 ## 3. Demo
@@ -33,6 +35,8 @@ cargo run --bin ch09_03_rc
 
 ### 3.3 ch09_03_rc.rs
 
+### 3.4 ch09_04_vec.rs
+
 ## 4. Index
 
 | Chapter | Title | Code | Documentation |
@@ -40,3 +44,4 @@ cargo run --bin ch09_03_rc
 | 9.1 | Box<T> | [`ch09_01_box.rs`](src/bin/ch09_01_box.rs) | [`ch09_01_box.md`](docs/ch09_01_box.md) |
 | 9.2 | Deref | [`ch09_02_deref.rs`](src/bin/ch09_02_deref.rs) | [`ch09_02_deref.md`](docs/ch09_02_deref.md) |
 | 9.3 | Reference Counting: Rc<T> | [`ch09_03_rc.rs`](src/bin/ch09_03_rc.rs) | [`ch09_03_rc.md`](docs/ch09_03_rc.md) |
+| 9.4 | Dynamic Array: Vec<T> | [`ch09_04_vec.rs`](src/bin/ch09_04_vec.rs) | [`ch09_04_vec.md`](docs/ch09_04_vec.md) |
