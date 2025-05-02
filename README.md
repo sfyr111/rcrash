@@ -9,6 +9,7 @@
   - [3.3 ch09_03_rc.rs](#33-ch09_03_rcrs)
   - [3.4 ch09_04_vec.rs](#34-ch09_04_vecrs)
   - [3.5 ch09_05_hashmap.rs](#35-ch09_05_hashmap.rs)
+  - [3.6 ch09_06_string_types.rs](#36-ch09_06_string_typesrs)
 - [4. Index](#4-index)
 
 ## 1. Introduction
@@ -27,6 +28,7 @@ cargo run --bin ch09_02_deref
 cargo run --bin ch09_03_rc
 cargo run --bin ch09_04_vec
 cargo run --bin ch09_05_hashmap
+cargo run --bin ch09_06_string_types
 ```
 
 ## 3. Demo
@@ -41,6 +43,8 @@ cargo run --bin ch09_05_hashmap
 
 ### 3.5 ch09_05_hashmap.rs
 
+### 3.6 ch09_06_string_types.rs
+
 ## 4. Index
 
 | Chapter | Title | Code | Documentation |
@@ -50,3 +54,4 @@ cargo run --bin ch09_05_hashmap
 | 9.3 | Reference Counting: Rc<T> | [`ch09_03_rc.rs`](src/bin/ch09_03_rc.rs) | [`ch09_03_rc.md`](docs/ch09_03_rc.md) |
 | 9.4 | Dynamic Array: Vec<T> | [`ch09_04_vec.rs`](src/bin/ch09_04_vec.rs) | [`ch09_04_vec.md`](docs/ch09_04_vec.md) |
 | 9.5 | HashMap: HashMap<K, V> | [`ch09_05_hashmap.rs`](src/bin/ch09_05_hashmap.rs) | [`ch09_05_hashmap.md`](docs/ch09_05_hashmap.md) |
+| 9.6 | Multiple String Types | [`ch09_06_string_types.rs`](src/bin/ch09_06_string_types.rs) | [`ch09_06_string_types.md`](docs/ch09_06_string_types.md) |
