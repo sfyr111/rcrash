@@ -40,6 +40,11 @@ rcrash/
 │       ├── ch05_05_use_binding.rs       # 5.5 使用 use 绑定模块成员
 │       ├── ch05_06_super_self.rs        # 5.6 使用 super 与 self 简化路径
 │       ├── ch05_08_project_structure.md # 5.8 Rust 项目目录层次结构（文档）
+│       ├── ch06_02_generic_fn_param.rs # 6.2 泛型作为函数参数的类型
+│       ├── ch06_03_generic_struct.rs   # 6.3 结构体中的泛型
+│       ├── ch06_04_generic_struct_impl.rs # 6.4 结构体中的泛型实现
+│       ├── ch06_05_traits.rs            # 6.5 使用 Traits 定义共同的行为
+│       ├── ch06_06_derive.rs            # 6.6 自动派生
 │       ├── ch07_02_ownership.rs         # 7.2 Rust 中的所有权（Ownership）
 │       ├── ch07_03_borrowing.rs         # 7.3 Rust 中的借用（Borrowing）
 │       ├── ch07_04_lifetime.rs          # 7.4 Rust 中的生命周期（Lifetime）
@@ -49,6 +54,9 @@ rcrash/
 │       ├── ch08_04_custom_error.rs     # 8.4 自定义错误与 ? 运算符
 │       ├── ch09_03_rc.rs              # 9.3 引用计数 Rc<T>
 │       ├── ch09_04_vec.rs              # 9.4 动态数组 Vec<T>
+│       ├── ch09_05_hashmap.rs          # 9.5 哈希映射 HashMap<K, V>
+│       ├── ch09_06_string_types.rs     # 9.6 多种字符串类型
+│       ├── ch09_07_system_time.rs      # 9.7 系统时间 SystemTime
 │       └── ...                         # 更多章节示例
 ├── docs/
 │   ├── ch03_3_var_mut.md               # 3.3 变量与可变性
@@ -81,6 +89,11 @@ rcrash/
 │   ├── ch05_05_use_binding.md          # 5.5 使用 use 绑定模块成员
 │   ├── ch05_06_super_self.md           # 5.6 使用 super 与 self 简化路径
 │   ├── ch05_08_project_structure.md    # 5.8 Rust 项目目录层次结构
+│   ├── ch06_02_generic_fn_param.md     # 6.2 泛型作为函数参数的类型
+│   ├── ch06_03_generic_struct.md       # 6.3 结构体中的泛型
+│   ├── ch06_04_generic_struct_impl.md  # 6.4 结构体中的泛型实现
+│   ├── ch06_05_traits.md               # 6.5 使用 Traits 定义共同的行为
+│   ├── ch06_06_derive.md               # 6.6 自动派生
 │   ├── ch07_02_ownership.md            # 7.2 Rust 中的所有权（Ownership）
 │   ├── ch07_03_borrowing.md            # 7.3 Rust 中的借用（Borrowing）
 │   ├── ch07_04_lifetime.md             # 7.4 Rust 中的生命周期（Lifetime）
@@ -90,6 +103,9 @@ rcrash/
 │   ├── ch08_04_custom_error.md       # 8.4 自定义错误与 ? 运算符
 │   ├── ch09_03_rc.md                 # 9.3 引用计数 Rc<T>
 │   ├── ch09_04_vec.md                 # 9.4 动态数组 Vec<T>
+│   ├── ch09_05_hashmap.md            # 9.5 哈希映射 HashMap<K, V>
+│   ├── ch09_06_string_types.md       # 9.6 多种字符串类型
+│   ├── ch09_07_system_time.md        # 9.7 系统时间 SystemTime
 │   └── ...                             # 更多章节文档
 └── README.md                           # 项目简介与索引
 ```
@@ -146,6 +162,9 @@ cargo run --bin ch08_03_recoverable
 cargo run --bin ch08_04_custom_error
 cargo run --bin ch09_03_rc
 cargo run --bin ch09_04_vec
+cargo run --bin ch09_05_hashmap
+cargo run --bin ch09_06_string_types
+cargo run --bin ch09_07_system_time
 ```
 
 ---
@@ -200,6 +219,9 @@ cargo run --bin ch09_04_vec
 | 8.4  | 自定义错误与 ? 运算符 | [ch08_04_custom_error.rs](src/bin/ch08_04_custom_error.rs) | [ch08_04_custom_error.md](docs/ch08_04_custom_error.md) |
 | 9.3  | 引用计数 Rc<T> | [ch09_03_rc.rs](src/bin/ch09_03_rc.rs) | [ch09_03_rc.md](docs/ch09_03_rc.md) |
 | 9.4  | 动态数组 Vec<T> | [ch09_04_vec.rs](src/bin/ch09_04_vec.rs) | [ch09_04_vec.md](docs/ch09_04_vec.md) |
+| 9.5  | 哈希映射 HashMap<K, V> | [ch09_05_hashmap.rs](src/bin/ch09_05_hashmap.rs) | [ch09_05_hashmap.md](docs/ch09_05_hashmap.md) |
+| 9.6  | 多种字符串类型 | [ch09_06_string_types.rs](src/bin/ch09_06_string_types.rs) | [ch09_06_string_types.md](docs/ch09_06_string_types.md) |
+| 9.7  | 系统时间 SystemTime | [ch09_07_system_time.rs](src/bin/ch09_07_system_time.rs) | [ch09_07_system_time.md](docs/ch09_07_system_time.md) |
 | ...  | ...                          | ...                                                               | ...                                                               |
 
 > 更多章节持续更新中...
